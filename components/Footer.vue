@@ -1,0 +1,168 @@
+<template>
+  <footer class="bg-dark">
+    <div class="text-right bg-light py-2 mt-5">
+      <div class="container">
+        <a
+          class="social-link-item mx-1"
+          href="https://www.facebook.com/code4romania"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img
+            src="../static/social/facebook.svg"
+            width="45"
+            height="45"
+            alt="Facebook"
+            class="p-2 bg-secondary"
+          />
+        </a>
+        <a
+          class="social-link-item mx-1"
+          href="https://www.instagram.com/code4romania"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img
+            src="../static/social/instagram.svg"
+            width="45"
+            height="45"
+            alt="Instagram"
+            class="p-2 bg-secondary"
+          />
+        </a>
+        <a
+          class="social-link-item mx-1"
+          href="https://www.linkedin.com/company/code4romania"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img
+            src="../static/social/linkedin.svg"
+            width="45"
+            height="45"
+            alt="LinkedIn"
+            class="p-2 bg-secondary"
+          />
+        </a>
+        <a
+          class="social-link-item mx-1"
+          href="https://twitter.com/Code4Romania"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img
+            src="../static/social/twitter.svg"
+            width="45"
+            height="45"
+            alt="Twitter"
+            class="p-2 bg-secondary"
+          />
+        </a>
+        <a
+          class="btn btn-lg btn-success text-white ml-1"
+          href="https://code4.ro/ro/doneaza/"
+          target="_blank"
+          rel="noopener noreferrer"
+          >{{ $t('donate') }}</a
+        >
+      </div>
+    </div>
+    <div class="container text-white py-4">
+      <div class="row">
+        <div class="col col-xs-12 col-sm-6 text-center text-sm-left">
+          <h5 class="link-title">Ecosistem Alegeri</h5>
+          <nav>
+            <ul class="list-unstyled">
+              <li>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://votdiaspora.ro/"
+                >
+                  Vot diaspora
+                </a>
+              </li>
+              <li>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://votemonitor.org/"
+                >
+                  Monitorizare Vot
+                </a>
+              </li>
+              <li>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://rezultatevot.ro/"
+                >
+                  Rezultate Vot
+                </a>
+              </li>
+              <li>
+                <nuxt-link :to="localePath('despre')">Vot Romania</nuxt-link>
+              </li>
+              <li>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://code4.ro/ro/"
+                >
+                  Code for Romania
+                </a>
+              </li>
+              <li>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://civiclabs.ro/"
+                >
+                  Civic Labs
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="col-xs-12 col-sm-6 text-center text-sm-right">
+          <ul class="list-unstyled">
+            <li>
+              <nuxt-link :to="localePath('cookies-policy')"
+                >Politica de cookies</nuxt-link
+              >
+            </li>
+            <li>
+              <a
+                href="http://bit.ly/2q06tSu"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Abonează-te la newsletter</a
+              >
+            </li>
+          </ul>
+          <img src="../static/code4RoGrey.svg" class="mt-3 mb-2" /><br />
+          <span>&copy; 2020 Code for Romania.</span>
+          <p>
+            Organizație neguvernamentală independentă, neafiliată politic și
+            apolitică.
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+</template>
+
+<style lang="scss" scoped>
+footer {
+  font-size: 0.9rem;
+}
+footer a {
+  color: #fff;
+}
+
+.social-link-item {
+  img {
+    border-radius: 5px;
+  }
+}
+</style>
