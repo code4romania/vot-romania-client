@@ -1,6 +1,7 @@
 export default {
   donate: 'Donează',
   nav_about: 'Despre',
+  guide_title: 'Selectează din opțiunile de mai jos ce ți se potrivește',
   votersGuide: {
     callToAction: 'Începe prin a alege una din opțiunile de mai jos',
     label0: 'Ești cetățean român',
@@ -65,11 +66,10 @@ export default {
     p2: 'dezvoltată pro bono de:',
     p3: 'în parteneriat cu:',
   },
-  map_hero_p1:
-    'În curând aici vei găsi o hartă și un buton de căutare care te vor ajuta să găsești secția de votare de care aparții. Dacă Vot România te ajută, fă o',
-  map_hero_p2: 'donație oricât de mică',
-  map_hero_p3:
-    'pentru Code for Romania care a dezvoltat acest site complet pro bono.',
+  map_text: `<p class="font-weight-bold m-0">În curând aici vei găsi o hartă și un buton de căutare care te vor ajuta să găsești secția de votare de care aparții.<br/> Dacă Vot România te ajută, fă o <a
+  href="https://code4.ro/ro/doneaza/"
+  target="_blank"
+  rel="noopener noreferrer">donație oricât de mică</a> pentru Code for Romania care a dezvoltat acest site complet pro bono.</p>`,
   social_share: {
     title: 'Informează-ți prietenii',
     text:
@@ -136,8 +136,8 @@ export default {
     <p>Dezactivarea si refuzul de a primi cookie-uri pot face anumite site-uri impracticabile sau dificil de vizitat si folosit. De asemenea, refuzul de a accepta cookie-uri nu inseamna ca nu veti mai primi/vedea publicitate online.</p>
     <p>Este posibila setarea din browser pentru ca aceste cookie-uri sa nu mai fie acceptate sau poti seta browserul sa accepte cookie-uri de la un site anume. Dar, de exemplu, daca nu doresti sa folosesti cookie-urile nu poti sa urmezi si pasii urmatori dupa inregistrarea completarea formularului.</p>
     <p>Toate browserele moderne ofera posibilitatea de a schimba setarile cookie-urilor. Aceste setari se gasesc de regula in optiuni sau in meniul de preferinte al browserului tau.</p>
-    <p>Pentru setarile cookie-urilor generate de terti, si pentru mai multe informatii privind confidentialitatea legata de publicitatea online, IAB Romania pune la dispozitie urmatorul site: <a href="http://www.youronlinechoices.com/ro/"
-    >http://www.youronlinechoices.com/ro/</a
-  ></p>`,
+    <p>Pentru setarile cookie-urilor generate de terti, si pentru mai multe informatii privind confidentialitatea legata de publicitatea online, IAB Romania pune la dispozitie urmatorul site: 
+      <a href="http://www.youronlinechoices.com/ro/">http://www.youronlinechoices.com/ro/</a>
+    </p>`,
   },
 }

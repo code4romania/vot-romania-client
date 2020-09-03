@@ -18,6 +18,7 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+      { rel: 'icon', type: 'image/x-icon', href: 'static/favicon.png' },
       {
         hid: 'description',
         name: 'description',
@@ -73,17 +74,17 @@ export default {
     locales: [
       {
         code: 'en',
-        name: 'English',
+        name: 'EN',
         file: 'en-US.js',
       },
       {
         code: 'hu',
-        name: 'Hungarian',
+        name: 'HU',
         file: 'hu-HU.js',
       },
       {
         code: 'ro',
-        name: 'Romania',
+        name: 'RO',
         file: 'ro-RO.js',
       },
     ],

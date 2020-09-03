@@ -1,8 +1,8 @@
 <template>
   <div class="container">
     <div class="row justify-content-md-center">
-      <div class="col-12 col-md-8">
-        <div class="bg-dark p-4 mb-4 text-white">
+      <div class="col-12 col-md-6 my-2">
+        <div class="bg-dark p-4 text-white h-100">
           <h2>{{ $t('social_share.title') }}</h2>
           <p>
             {{ $t('social_share.text') }}
@@ -35,8 +35,8 @@
           </div>
         </div>
       </div>
-      <div class="col-12 col-md-8">
-        <div class="bg-dark p-4 text-white">
+      <div class="col-12 col-md-6 my-2">
+        <div class="bg-dark p-4 text-white h-100">
           <h2>{{ $t('donate_card.title') }}</h2>
           <p>
             {{ $t('donate_card.text') }}

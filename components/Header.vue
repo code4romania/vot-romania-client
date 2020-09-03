@@ -3,12 +3,18 @@
     <nav
       class="navbar navbar-expand-sm justify-content-center justify-content-sm-end"
     >
-      <nuxt-link :to="localePath('index')"
+      <nuxt-link :to="localePath('index')" class="text-dark"
         ><img
           class="navbar-brand"
           src="../static/logo_horizontal.svg"
           width="200"
           height="70"
+          alt="Vot Romania" />
+        by
+        <img
+          class="navbar-brand"
+          src="../static/code4Romania.svg"
+          width="100"
           alt="Vot Romania"
       /></nuxt-link>
       <div class="d-flex align-items-center mx-auto mr-sm-0 mt-5 mt-sm-0">
@@ -27,7 +33,7 @@
             v-for="(locale, index) in $i18n.locales"
             :key="index"
             :value="locale.code"
-            :selected="locale.code === $i18n.locale"
+            :selected="locale.code === selectedValue"
           >
             {{ locale.name }}
           </option>
@@ -45,9 +51,11 @@
 
 <script>
 export default {
-  data: () => ({
-    selectedValue: '',
-  }),
+  data() {
+    return {
+      selectedValue: this.$i18n.locale,
+    }
+  },
   computed: {
     availableLocales() {
       return this.$i18n.locales.filter((i) => i.code !== this.$i18n.locale)
