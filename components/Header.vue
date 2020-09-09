@@ -5,9 +5,9 @@
     >
       <nuxt-link
         :to="localePath('index')"
-        class="text-dark d-flex align-items-center"
+        class="text-dark d-flex flex-column flex-sm-row align-items-center"
         ><img
-          class="navbar-brand"
+          class="navbar-brand mr-2"
           src="../static/logo_horizontal.svg"
           height="60"
           alt="Vot Romania" />

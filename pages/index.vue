@@ -7,13 +7,13 @@
     </div>
     <div class="row">
       <div class="col-12 col-lg-4">
-        <h2 class="h4 pb-2">
+        <h2 class="h5 pb-2">
           {{ $t('exceptional_cases.case1_title') }}
         </h2>
         <div v-html="$t('exceptional_cases.case1_text')"></div>
       </div>
       <div class="col-12 col-lg-4 py-4 py-lg-0">
-        <h2 class="h4 pb-2">
+        <h2 class="h5 pb-2">
           {{ $t('exceptional_cases.case2_title') }}
         </h2>
         <p>
@@ -21,7 +21,7 @@
         </p>
       </div>
       <div class="col-12 col-lg-4">
-        <h2 class="h4 pb-2">
+        <h2 class="h5 pb-2">
           {{ $t('exceptional_cases.case3_title') }}
         </h2>
         <p>

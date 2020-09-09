@@ -28,7 +28,7 @@ export default {
       { property: 'og:title', content: 'Vot România' },
       {
         property: 'og:image',
-        content: 'https://votromania.ro/assets/og_image.png',
+        content: 'https://votromania.ro/static/social/og_image.png',
       },
       {
         property: 'og:description',
