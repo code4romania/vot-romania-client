@@ -31,6 +31,10 @@ export default {
         content: 'https://votromania.ro/static/social/og_image.png',
       },
       {
+        name: 'theme-color',
+        content: '#352245',
+      },
+      {
         property: 'og:description',
         content:
           'Vot România este o platformă dezvoltată de Code for Romania care  simplifică pe înțelesul cetățenilor ghidul electoral al alegerilor locale, care vor avea loc la finalul lunii septembrie 2020.',

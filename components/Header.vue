@@ -17,7 +17,7 @@
             class="navbar-brand"
             src="../static/code4Romania.svg"
             width="100"
-            alt="Vot Romania"
+            alt="Code4Ro"
           /></div
       ></nuxt-link>
       <div class="d-flex align-items-center mx-auto mr-sm-0 mt-5 mt-sm-0">

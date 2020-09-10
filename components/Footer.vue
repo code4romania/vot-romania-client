@@ -12,7 +12,7 @@
             src="../static/social/facebook.svg"
             width="45"
             height="45"
-            alt="Facebook"
+            alt="Code4Ro Facebook"
             class="p-2 bg-secondary"
           />
         </a>
@@ -26,7 +26,7 @@
             src="../static/social/instagram.svg"
             width="45"
             height="45"
-            alt="Instagram"
+            alt="Code4Ro Instagram"
             class="p-2 bg-secondary"
           />
         </a>
@@ -40,7 +40,7 @@
             src="../static/social/linkedin.svg"
             width="45"
             height="45"
-            alt="LinkedIn"
+            alt="Code4Ro LinkedIn"
             class="p-2 bg-secondary"
           />
         </a>
@@ -54,7 +54,7 @@
             src="../static/social/twitter.svg"
             width="45"
             height="45"
-            alt="Twitter"
+            alt="Code4Ro Twitter"
             class="p-2 bg-secondary"
           />
         </a>
@@ -70,7 +70,7 @@
     <div class="container text-white py-4">
       <div class="row">
         <div class="col col-xs-12 col-sm-6 text-center text-sm-left">
-          <h5 class="link-title">Ecosistem Alegeri</h5>
+          <h3 class="link-title h5">Ecosistem Alegeri</h3>
           <nav>
             <ul class="list-unstyled">
               <li>
@@ -142,6 +142,7 @@
           </ul>
           <nuxt-link :to="localePath('index')"
             ><img
+              alt="Code4ro"
               src="../static/code4RoGrey.svg"
               class="mt-3 mb-2" /></nuxt-link
           ><br />
