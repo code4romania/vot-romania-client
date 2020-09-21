@@ -15,7 +15,7 @@
               class="share-cta email p-3"
             >
               <img
-                src="./../static/social/email.svg"
+                src="./../assets/social/email.svg"
                 alt="Write us an email"
                 width="32"
               />
@@ -27,7 +27,7 @@
               class="share-cta fb p-3 mx-1"
             >
               <img
-                src="./../static/social/facebook.svg"
+                src="./../assets/social/facebook.svg"
                 alt="Like us on Facebook"
                 width="32"
               />
@@ -39,7 +39,7 @@
               class="share-cta tw p-3"
             >
               <img
-                src="./../static/social/twitter.svg"
+                src="./../assets/social/twitter.svg"
                 alt="Follow us Twitter"
                 width="32"
               />

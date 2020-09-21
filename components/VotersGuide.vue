@@ -185,7 +185,7 @@ export default {
 .choice-card::after {
   content: '';
   opacity: 0;
-  background: no-repeat url(../static/check-on.svg);
+  background: no-repeat url(../assets/check-on.svg);
   background-size: cover;
   position: absolute;
   top: -2px;

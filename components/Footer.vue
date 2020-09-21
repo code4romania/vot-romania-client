@@ -9,7 +9,7 @@
           rel="noopener noreferrer"
         >
           <img
-            src="../static/social/facebook.svg"
+            src="../assets/social/facebook.svg"
             width="45"
             height="45"
             alt="Code4Ro Facebook"
@@ -23,7 +23,7 @@
           rel="noopener noreferrer"
         >
           <img
-            src="../static/social/instagram.svg"
+            src="../assets/social/instagram.svg"
             width="45"
             height="45"
             alt="Code4Ro Instagram"
@@ -37,7 +37,7 @@
           rel="noopener noreferrer"
         >
           <img
-            src="../static/social/linkedin.svg"
+            src="../assets/social/linkedin.svg"
             width="45"
             height="45"
             alt="Code4Ro LinkedIn"
@@ -51,7 +51,7 @@
           rel="noopener noreferrer"
         >
           <img
-            src="../static/social/twitter.svg"
+            src="../assets/social/twitter.svg"
             width="45"
             height="45"
             alt="Code4Ro Twitter"
@@ -143,7 +143,7 @@
           <nuxt-link :to="localePath('index')"
             ><img
               alt="Code4ro"
-              src="../static/code4RoGrey.svg"
+              src="../assets/code4RoGrey.svg"
               class="mt-3 mb-2" /></nuxt-link
           ><br />
           <span>&copy; 2020 Code for Romania.</span>

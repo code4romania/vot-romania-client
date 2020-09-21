@@ -2,6 +2,7 @@ $font-family-sans-serif: 'Titillium Web', sans-serif;
 $font-size-base: 1.1rem;
 $line-height-base: 1.6;
 $green: #6fcf97;
+$yellow: #fc0;
 $dark: #352245;
 
 @import './_fonts';
@@ -19,4 +20,6 @@ $dark: #352245;
 @import '../node_modules/bootstrap/scss/navbar';
 @import '../node_modules/bootstrap/scss/buttons';
 @import '../node_modules/bootstrap/scss/card';
+@import '../node_modules/bootstrap/scss/forms';
 @import '../node_modules/bootstrap/scss/custom-forms';
+@import '../node_modules/bootstrap/scss/list-group';

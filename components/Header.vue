@@ -8,14 +8,14 @@
         class="text-dark d-flex flex-column flex-sm-row align-items-center"
         ><img
           class="navbar-brand mr-2"
-          src="../static/logo_horizontal.svg"
+          src="../assets/logo_horizontal.svg"
           height="60"
           alt="Vot Romania" />
         <div class="mt-2">
           <small>by</small>
           <img
             class="navbar-brand"
-            src="../static/code4Romania.svg"
+            src="../assets/code4Romania.svg"
             width="100"
             alt="Code4Ro"
           /></div

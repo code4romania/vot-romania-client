@@ -44,6 +44,23 @@ export default {
     label110:
       'If you are an European Union citizen with full voting rights and your legal domicile or residency is in Romania you will be listed on complementary lists by the mayor of the municipality where you reside, based on General Immigrations Inspectorate records. These complementary lists are permanent lists. If you want to check your status or presence on complementary lists you can contact city/town hall and, should you observe any irregularities in your voting status, notify the mayor as soon as possible.',
   },
+  pollingStationSearch: {
+    question: 'Where do you live?',
+    callToAction: 'Insert the name of the street and the city where you live',
+    searchPlaceholder:
+      'Search for your address to find out the polling section you are assigned to',
+    addressNotFound:
+      'We didn`t find the polling station your street is attributed to. Please find below the closest polling stations for the searched address, and the list of streets that are attributed to them. This way you can manually match/check them, and see where you can vote. Please remember that you can only vote in the polling station your street has been attributed to.',
+    hasPermanentResidence: 'The searched address is allocated to the section:',
+  },
+  pollingStationCard: {
+    distance: 'Distance: ',
+    seeStreets: 'Street list',
+    pollingStationNumber: 'Polling station no.',
+    address: 'Address: ',
+    assignedStreetsLabel:
+      'In this polling section, people living on the following streets can vote:',
+  },
   exceptional_cases: {
     case1_title:
       'You are stuck at home or in other locations (e.g. the hospital)',

@@ -7,15 +7,15 @@
     <div class="row text-center my-5">
       <div class="col">
         <p>{{ $t('about.p1') }}</p>
-        <img src="../static/civic_labs.svg" alt="Civic Labs" />
+        <img src="../assets/civic_labs.svg" alt="Civic Labs" />
       </div>
       <div class="col">
         <p>{{ $t('about.p2') }}</p>
-        <img src="../static/code4Romania.svg" alt="Code4Romania" />
+        <img src="../assets/code4Romania.svg" alt="Code4Romania" />
       </div>
       <div class="col">
         <p>{{ $t('about.p3') }}</p>
-        <img src="../static/observator.png" alt="Observator" />
+        <img src="../assets/observator.png" alt="Observator" />
       </div>
     </div>
     <hr />

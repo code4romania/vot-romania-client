@@ -41,6 +41,24 @@ export default {
     label110:
       'Ha Európai Uniós tagállam állampolgára vagy és kimaradtál a komplementáris listákról vagy megváltozott a lakcímed azon pillanatok között mikor a listák lezáródnak és a választások időpontja között (azaz 23 nappal a választások előtt), szavazhatsz azon szavazó terület keretén belül ahová tartozol és laksz, egy érvényes személyi igazoló dokumentum alapján melyhez kötelező módon csatolod a következő dokumentumokat: Bejelentkezési határozat melyben fel van tüntetve az új cím (vagy esettől függően) Az állandó tartózkodási engedély a régi címmel és egy határozat a Bevándorlási Hivataltól amely feltünteti az új címet. <br><br>Ugyanakkor választások előtt le lehet tenni egy kérvényt a polgarmesteri hivatalhoz az új lakcímmel és a fenti dokumentumokkal, és ez majd továbbítja ezeket az információkat a Választási Irodának ahová tartozik az új cím és ott szavazhatsz a szupplementáris listákon. ',
   },
+  pollingStationSearch: {
+    question: 'Hol laksz?',
+    callToAction: 'Írd be az utca nevét majd a településnevet.',
+    searchPlaceholder:
+      'Keresd meg a lakcímed hogy tudd melyik szavazókörzethez tartozol.',
+    addressNotFound:
+      'Nem talàltuk meg a megadott utcához tartozó szavazókörzetett. Lejjebb lathatod a legközelebbi szavazókörzeteket a megadott címhez és a hozzájuk tartozó utcákat, így azonosíthatód hogy hol tudsz szavazi.',
+    hasPermanentResidence:
+      'A keresett cím a következő szavazókörzethez van kiosztva: ',
+  },
+  pollingStationCard: {
+    distance: 'Távolság:',
+    seeStreets: 'Utcanevek listája',
+    pollingStationNumber: 'Szavazókörzet szám .',
+    address: 'Cim:',
+    assignedStreetsLabel:
+      'Ebben a szavazókörzetben azok a személyek tudnak szavazni akik a következő utcákon laknak:',
+  },
   exceptional_cases: {
     case1_title:
       'Mozgásképtelen otthonában vagy speciális ellátó intézetben (pl: korház)',

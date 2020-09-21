@@ -36,6 +36,24 @@ export default {
     label110:
       'Dacă ești cetățean european și ai fost omis din lista complementară sau  ți-ai schimbat adresa în altă circumscripție, între momentul în care listele complementare s-au închis și transmis la biroul electoral și alegerile locale (adică, conform calendarului electoral, cu 23 de zile înainte de alegeri), poți vota în circumscripţia electorală pe a cărei rază teritorială locuiești, în baza oricărui document valabil de identitate însoţit de certificatul de înregistrare care atestă noua adresă sau, după caz, cartea de rezidenţă permanentă ori de permisul de şedere permanentă care atestă adresa anterioară, însoţit de o adeverinţă eliberată de Inspectoratul General pentru Imigrări, care atestă adresa actuală. <br><br>Totodată, poți depune, înainte de alegeri, o cerere către primarul localității unde ai noul domiciliu, însoțită de documentele de mai sus, iar acesta va comunica biroului electoral lde care ține secția în care ar urma să votezi o informare și vei putea vota pe liste suplimentare. ',
   },
+  pollingStationSearch: {
+    question: 'Unde stai?',
+    callToAction:
+      'Introduceți numele străzii pe care locuiți, urmat de numele orașului',
+    searchPlaceholder:
+      'Caută adresa ta pentru a afla la ce secție ești arondat',
+    addressNotFound:
+      'Nu am găsit secția corespunzătoare străzii tale. Iată cele mai apropiate secții de adresa căutată și lista străzilor arondate lor pentru a identifica unde anume trebuie să votezi.',
+    hasPermanentResidence: 'Adresa căutată este arondată la secția:',
+  },
+  pollingStationCard: {
+    distance: 'Distanța:',
+    seeStreets: 'Vezi lista de străzi',
+    pollingStationNumber: 'Secția de votare Nr.',
+    address: 'Adresa:',
+    assignedStreetsLabel:
+      'La această secție pot vota persoanele care locuiesc pe următoarele străzi:',
+  },
   exceptional_cases: {
     case1_title:
       'Ești imobilizat la domiciliu sau în unități speciale (ex: spital)',

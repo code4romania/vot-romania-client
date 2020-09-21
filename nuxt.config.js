@@ -1,9 +1,9 @@
 export default {
-  /*
-   ** Nuxt rendering mode
-   ** See https://nuxtjs.org/api/configuration-mode
-   */
-  mode: 'universal',
+  env: {
+    NUXT_ENV_API_URL:
+      process.env.NUXT_ENV_API_URL ||
+      'https://votromania.azurewebsites.net/api',
+  },
   /*
    ** Nuxt target
    ** See https://nuxtjs.org/api/configuration-target
@@ -41,6 +41,26 @@ export default {
       },
       { property: 'og:url', content: 'https://votromania.ro' },
       { property: 'og:type', content: 'website' },
+    ],
+    link: [
+      {
+        rel: 'stylesheet',
+        href: 'https://js.api.here.com/v3/3.1/mapsjs-ui.css',
+      },
+    ],
+    script: [
+      {
+        src: 'https://js.api.here.com/v3/3.1/mapsjs-core.js',
+      },
+      {
+        src: 'https://js.api.here.com/v3/3.1/mapsjs-service.js',
+      },
+      {
+        src: 'https://js.api.here.com/v3/3.1/mapsjs-mapevents.js',
+      },
+      {
+        src: 'https://js.api.here.com/v3/3.1/mapsjs-ui.js',
+      },
     ],
   },
   /*
@@ -103,5 +123,7 @@ export default {
    ** Build configuration
    ** See https://nuxtjs.org/api/configuration-build/
    */
-  build: {},
+  build: {
+    transpile: [({ isServer }) => 'vue-typeahead-bootstrap'],
+  },
 }
