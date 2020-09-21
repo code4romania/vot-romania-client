@@ -1,8 +1,7 @@
 export default {
   env: {
     NUXT_ENV_API_URL:
-      process.env.NUXT_ENV_API_URL ||
-      'https://votromania.azurewebsites.net/api',
+      process.env.NUXT_ENV_API_URL || 'https://api.votromania.ro/api',
   },
   /*
    ** Nuxt target
