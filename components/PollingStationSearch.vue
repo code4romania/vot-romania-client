@@ -91,7 +91,7 @@ export default {
       pollingStationsWithAddress: [],
       platform: null,
       hereMap: null,
-      apikey: 'Um0LhLV4phI2QpCYrBCwmWgvdjmH6NFvd709PhMqsQg',
+      apikey: 'QBWABKRH_4WYnxdYgBAnezKqGHBB48fnf2K8w7Cyx0k',
       pollingStationService: new PollingStationMatcherService(),
     }
   },
