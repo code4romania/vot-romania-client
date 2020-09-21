@@ -21,19 +21,18 @@
         class="row row-cols-1"
         :class="pollingStationsWithAddress.length > 1 ? 'row-cols-md-2' : ''"
       >
-        <div class="col mb-4">
-          <div
-            v-for="pollingStation of pollingStationsWithAddress"
-            :key="pollingStation.id"
-          >
-            <PollingStationCard
-              :polling-station-number="pollingStation.pollingStationNumber"
-              :county="pollingStation.county"
-              :address="pollingStation.address"
-              :distance="pollingStation.distance"
-              :assigned-addresses="pollingStation.assignedAddresses"
-            />
-          </div>
+        <div
+          v-for="pollingStation of pollingStationsWithAddress"
+          :key="pollingStation.id"
+          class="col mb-4"
+        >
+          <PollingStationCard
+            :polling-station-number="pollingStation.pollingStationNumber"
+            :county="pollingStation.county"
+            :address="pollingStation.address"
+            :distance="pollingStation.distance"
+            :assigned-addresses="pollingStation.assignedAddresses"
+          />
         </div>
       </div>
     </div>
@@ -47,19 +46,18 @@
         class="row row-cols-1"
         :class="pollingStations.length > 1 ? 'row-cols-md-2' : ''"
       >
-        <div class="col mb-4">
-          <div
-            v-for="pollingStation of pollingStations"
-            :key="pollingStation.id"
-          >
-            <PollingStationCard
-              :polling-station-number="pollingStation.pollingStationNumber"
-              :county="pollingStation.county"
-              :address="pollingStation.address"
-              :distance="pollingStation.distance"
-              :assigned-addresses="pollingStation.assignedAddresses"
-            />
-          </div>
+        <div
+          v-for="pollingStation of pollingStations"
+          :key="pollingStation.id"
+          class="col mb-4"
+        >
+          <PollingStationCard
+            :polling-station-number="pollingStation.pollingStationNumber"
+            :county="pollingStation.county"
+            :address="pollingStation.address"
+            :distance="pollingStation.distance"
+            :assigned-addresses="pollingStation.assignedAddresses"
+          />
         </div>
       </div>
     </div>

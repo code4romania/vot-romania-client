@@ -34,6 +34,7 @@
     </div>
   </div>
 </template>
+
 <script>
 export default {
   data: () => ({
@@ -150,6 +151,9 @@ export default {
       this.initial.options = previousOption
     },
     goToNextChoice(option) {
+      if (!this.decisionTree[option].options) {
+        return
+      }
       this.previousChoice.push(this.initial.options)
       this.initial.options = this.decisionTree[option].options
     },
