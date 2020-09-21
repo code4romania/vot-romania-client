@@ -137,7 +137,10 @@ export default {
         this.pollingStations,
         selectedGeocodeAddress
       )
-      this.pollingStationsWithAddress.forEach((c) => {
+      const stations = this.pollingStationsWithAddress.length
+        ? this.pollingStationsWithAddress
+        : this.pollingStations
+      stations.forEach((c) => {
         this.addMarker(c.latitude, c.longitude, pollingStationMarker)
         this.hereMap.setCenter({
           lat: c.latitude,
@@ -145,6 +148,13 @@ export default {
         })
       })
       this.hereMap.setZoom(16)
+      if (stations.length > 1) {
+        this.hereMap.setCenter({
+          lat: latitude,
+          lng: longitude,
+        })
+        this.hereMap.setZoom(15)
+      }
     },
     async getGeocode(locationId) {
       try {

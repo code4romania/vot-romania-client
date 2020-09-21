@@ -18,7 +18,6 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.png' },
       {
         hid: 'description',
         name: 'description',
@@ -47,6 +46,7 @@ export default {
         rel: 'stylesheet',
         href: 'https://js.api.here.com/v3/3.1/mapsjs-ui.css',
       },
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.png' },
     ],
     script: [
       {

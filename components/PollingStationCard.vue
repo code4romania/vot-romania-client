@@ -7,7 +7,7 @@
     <div class="card-body">
       <div class="d-flex justify-content-between align-items-center">
         <p class="m-0">
-          <span class="bg-dark text-white px-1">{{
+          <span class="bg-dark text-white px-1 mr-1">{{
             $t('pollingStationCard.address')
           }}</span>
           {{ address }}
@@ -36,7 +36,7 @@
 <script>
 export default {
   props: {
-    pollingStationNumber: { type: Number, default: 0 },
+    pollingStationNumber: { type: String, default: '' },
     county: { type: String, default: '' },
     address: { type: String, default: '' },
     distance: { type: Number, default: 0 },

@@ -26,10 +26,10 @@
       class="d-flex justify-content-between my-4"
     >
       <button class="btn btn-light" @click="resetTest()">
-        Reseteaza testul
+        {{ $t('back_to_start_button') }}
       </button>
       <button class="btn btn-light" @click="goToPreviousChoice()">
-        Inapoi
+        {{ $t('back_button') }}
       </button>
     </div>
   </div>
