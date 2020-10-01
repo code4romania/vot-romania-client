@@ -77,7 +77,7 @@ export default {
   back_button: 'Back',
   back_to_start_button: 'Back to start',
   introduction:
-    'On September 27th, local elections will be held in Romania. Romanian citizens as well as citizens of other EU states residing on Romanian territory have the right to elect their mayor as well as local and county council representatives. Vot România helps you find out where you can vote, how you can do it and what documents you will need for it.',
+    'The parliamentary elections in Romania take place on December 6, 2020. Romanian citizens with the right to vote will be able to elect their representatives in the Romanian Parliament, for the Senate and the Chamber of Deputies. In the shortest time, here you will find all the necessary information to be able to exercise your right to vote in this electoral round.',
   about: {
     title: 'About the project',
     text: `<p>Vot Romania is a platform that simplifies the local elections guide for the late september 2020 elections and translates it in layman‘s terms. Vot Romania is Code for Romania‘s fourth project designed to facilitate citizens’ access to voting information and help foster more transparency for elections.</p>

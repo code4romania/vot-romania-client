@@ -70,7 +70,7 @@ export default {
   back_button: 'Înapoi',
   back_to_start_button: 'Înapoi la început',
   introduction:
-    'Pe 27 septembrie au loc alegeri locale în România. Românii și cetățenii altor state din Uniunea Europeană cu domiciliul sau reședința pe teritoriul României au dreptul de a-și alege primarii, consilierii locali și consilierii județeni. Descoperă cu ajutorul Vot România unde poți vota, în ce condiții și care sunt actele de care ai nevoie pentru a face acest lucru.',
+    'Pe data de 6 decembrie 2020 au loc alegerile parlamentare din România. Cetățenii români cu drept de vot vor putea să își aleagă reprezentanții în Parlamentul României, pentru Senat și Camera Deputaților. În cel mai scurt timp, aici veți găsi toate informațiile necesare pentru a vă putea exercita dreptul la vot în această rundă electorală.',
   about: {
     title: 'Despre proiect',
     text: `<p>Vot România este o platformă care simplifică pe înțelesul cetățenilor ghidul electoral al alegerilor locale, care vor avea loc la finalul lunii septembrie 2020. Vot România este cel de-al patrulea proiect pe care Code for Romania îl realizează pentru a facilita accesul cetățenilor la informație și a ajuta la o mai mare transparență a procesului electoral</p>
@@ -154,7 +154,7 @@ export default {
     <p>Dezactivarea si refuzul de a primi cookie-uri pot face anumite site-uri impracticabile sau dificil de vizitat si folosit. De asemenea, refuzul de a accepta cookie-uri nu inseamna ca nu veti mai primi/vedea publicitate online.</p>
     <p>Este posibila setarea din browser pentru ca aceste cookie-uri sa nu mai fie acceptate sau poti seta browserul sa accepte cookie-uri de la un site anume. Dar, de exemplu, daca nu doresti sa folosesti cookie-urile nu poti sa urmezi si pasii urmatori dupa inregistrarea completarea formularului.</p>
     <p>Toate browserele moderne ofera posibilitatea de a schimba setarile cookie-urilor. Aceste setari se gasesc de regula in optiuni sau in meniul de preferinte al browserului tau.</p>
-    <p>Pentru setarile cookie-urilor generate de terti, si pentru mai multe informatii privind confidentialitatea legata de publicitatea online, IAB Romania pune la dispozitie urmatorul site: 
+    <p>Pentru setarile cookie-urilor generate de terti, si pentru mai multe informatii privind confidentialitatea legata de publicitatea online, IAB Romania pune la dispozitie urmatorul site:
       <a href="http://www.youronlinechoices.com/ro/">http://www.youronlinechoices.com/ro/</a>
     </p>`,
   },
