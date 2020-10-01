@@ -94,6 +94,7 @@ export default {
    */
   modules: ['nuxt-i18n'],
   i18n: {
+    detectBrowserLanguage: false,
     locales: [
       {
         code: 'en',
