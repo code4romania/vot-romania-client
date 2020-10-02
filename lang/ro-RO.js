@@ -91,7 +91,7 @@ export default {
   social_share: {
     title: 'Informează-ți prietenii',
     text:
-      'Distribuie aceste informații în social media pentru a ajuta cât mai mulți români să afle unde pot vota la alegerile locale din 2020, de ce documente au nevoie și alte sfaturi utile.',
+      'Distribuie aceste informații în social media pentru a ajuta cât mai mulți români să afle unde pot vota la alegerile parlamentare din 2020, de ce documente au nevoie și alte sfaturi utile.',
   },
   donate_card: {
     title: 'Susține-ne',
