@@ -101,9 +101,6 @@
                 </a>
               </li>
               <li>
-                <nuxt-link :to="localePath('despre')">Vot Romania</nuxt-link>
-              </li>
-              <li>
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
