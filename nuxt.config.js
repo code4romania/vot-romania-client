@@ -40,27 +40,7 @@ export default {
       { property: 'og:url', content: 'https://votromania.ro' },
       { property: 'og:type', content: 'website' },
     ],
-    link: [
-      {
-        rel: 'stylesheet',
-        href: 'https://js.api.here.com/v3/3.1/mapsjs-ui.css',
-      },
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.png' },
-    ],
-    script: [
-      {
-        src: 'https://js.api.here.com/v3/3.1/mapsjs-core.js',
-      },
-      {
-        src: 'https://js.api.here.com/v3/3.1/mapsjs-service.js',
-      },
-      {
-        src: 'https://js.api.here.com/v3/3.1/mapsjs-mapevents.js',
-      },
-      {
-        src: 'https://js.api.here.com/v3/3.1/mapsjs-ui.js',
-      },
-    ],
+    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.png' }],
   },
   /*
    ** Global CSS
@@ -70,7 +50,7 @@ export default {
    ** Plugins to load before mounting the App
    ** https://nuxtjs.org/guide/plugins
    */
-  plugins: [],
+  plugins: ['@/plugins/Gmap.js'],
   /*
    ** Auto import components
    ** See https://nuxtjs.org/api/configuration-components
@@ -124,6 +104,6 @@ export default {
    ** See https://nuxtjs.org/api/configuration-build/
    */
   build: {
-    transpile: [({ isServer }) => 'vue-typeahead-bootstrap'],
+    transpile: [/^gmap-vue($|\/)/],
   },
 }
