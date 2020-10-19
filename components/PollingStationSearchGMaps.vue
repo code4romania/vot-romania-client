@@ -64,13 +64,21 @@
       map-type-id="terrain"
       style="width: 100%; height: 500px"
     >
+      <gmap-info-window
+        :options="infoOptions"
+        :position="infoWindowPos"
+        :opened="infoWinOpen"
+        @closeclick="infoWinOpen = false"
+      >
+      </gmap-info-window>
+
       <GmapMarker
         v-for="(m, index) in markers"
         :key="index"
         :position="m.position"
         :clickable="true"
         :icon="m.iconPath"
-        @click="center = m.position"
+        @click="toggleInfoWindow(m, index)"
       />
     </GmapMap>
   </div>
@@ -80,6 +88,7 @@
 import GmapMap from 'gmap-vue/dist/components/map'
 import Autocomplete from 'gmap-vue/dist/components/autocomplete'
 import GmapMarker from 'gmap-vue/dist/components/marker'
+import GmapInfoWindow from 'gmap-vue/dist/components/info-window'
 import { PollingStationMatcherService } from '../service/polling-station-matcher.service'
 import houseMarker from '../assets/house_marker.svg'
 import pollingStationMarker from '../assets/polling_station_marker.svg'
@@ -89,6 +98,7 @@ export default {
     Autocomplete,
     GmapMap,
     GmapMarker,
+    GmapInfoWindow,
   },
 
   data() {
@@ -100,6 +110,16 @@ export default {
       pollingStations: [],
       pollingStationsWithAddress: [],
       pollingStationService: new PollingStationMatcherService(),
+      infoWindowPos: null,
+      infoWinOpen: false,
+      currentMidx: null,
+      infoOptions: {
+        content: '',
+        pixelOffset: {
+          width: 0,
+          height: -35,
+        },
+      },
     }
   },
   methods: {
@@ -109,7 +129,7 @@ export default {
       this.clearMarkers()
       const latitude = place.geometry.location.lat()
       const longitude = place.geometry.location.lng()
-      this.addMarker(latitude, longitude, houseMarker)
+      this.addMarker(latitude, longitude, houseMarker, place.formatted_address)
 
       const selectedGeocodeAddress = {}
       place.address_components.forEach((address) => {
@@ -140,7 +160,14 @@ export default {
         ? this.pollingStationsWithAddress
         : this.pollingStations
       stations.forEach((c) => {
-        this.addMarker(c.latitude, c.longitude, pollingStationMarker)
+        this.addMarker(
+          c.latitude,
+          c.longitude,
+          pollingStationMarker,
+          `${this.$t('pollingStationCard.pollingStationNumber')} ${
+            c.pollingStationNumber
+          }, ${c.institution} ${c.address}`
+        )
       })
 
       if (stations.length === 1) {
@@ -162,22 +189,37 @@ export default {
         const result = await fetch(
           `${process.env.NUXT_ENV_API_URL}/polling-station/near-me?latitude=${latitude}&longitude=${longitude}`
         )
+        if (result.status !== 204 && result.status !== 200) {
+          this.showErrorMessage = true
+        }
         return await result.json()
       } catch (error) {
         this.showErrorMessage = true
       }
     },
-    addMarker(lat, lng, iconPath) {
+    addMarker(lat, lng, iconPath, infoText) {
       this.markers.push({
         iconPath,
         position: {
           lat,
           lng,
         },
+        infoText,
       })
     },
     clearMarkers() {
       this.markers = []
+    },
+    toggleInfoWindow(marker, idx) {
+      this.infoWindowPos = marker.position
+      this.infoOptions.content = marker.infoText
+
+      if (this.currentMidx === idx) {
+        this.infoWinOpen = !this.infoWinOpen
+      } else {
+        this.infoWinOpen = true
+        this.currentMidx = idx
+      }
     },
   },
 }
