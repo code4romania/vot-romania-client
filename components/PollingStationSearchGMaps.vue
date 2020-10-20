@@ -70,6 +70,11 @@
         :opened="infoWinOpen"
         @closeclick="infoWinOpen = false"
       >
+        <PinInfo
+          :polling-station-number="infoOptions.pollingStationNumber"
+          :county="infoOptions.county"
+          :address="infoOptions.address"
+        />
       </gmap-info-window>
 
       <GmapMarker
@@ -114,7 +119,9 @@ export default {
       infoWinOpen: false,
       currentMidx: null,
       infoOptions: {
-        content: '',
+        pollingStationNumber: [],
+        address: null,
+        county: null,
         pixelOffset: {
           width: 0,
           height: -35,
@@ -129,7 +136,7 @@ export default {
       this.clearMarkers()
       const latitude = place.geometry.location.lat()
       const longitude = place.geometry.location.lng()
-      this.addMarker(latitude, longitude, houseMarker, place.formatted_address)
+      this.addMarker(latitude, longitude, houseMarker)
 
       const selectedGeocodeAddress = {}
       place.address_components.forEach((address) => {
@@ -156,17 +163,21 @@ export default {
         this.pollingStations,
         selectedGeocodeAddress
       )
+
       const stations = this.pollingStationsWithAddress.length
         ? this.pollingStationsWithAddress
         : this.pollingStations
       stations.forEach((c) => {
+        const sectionsOnThisAddress = this.pollingStations
+          .filter((poolStation) => poolStation.address === c.address)
+          .map((filtereStation) => filtereStation.pollingStationNumber)
         this.addMarker(
           c.latitude,
           c.longitude,
           pollingStationMarker,
-          `${this.$t('pollingStationCard.pollingStationNumber')} ${
-            c.pollingStationNumber
-          }, ${c.institution} ${c.address}`
+          sectionsOnThisAddress,
+          c.address,
+          c.county
         )
       })
 
@@ -197,26 +208,33 @@ export default {
         this.showErrorMessage = true
       }
     },
-    addMarker(lat, lng, iconPath, infoText) {
+    addMarker(lat, lng, iconPath, pollingStationNumber, address, county) {
       this.markers.push({
         iconPath,
         position: {
           lat,
           lng,
         },
-        infoText,
+        pollingStationNumber,
+        address,
+        county,
       })
     },
     clearMarkers() {
       this.markers = []
     },
     toggleInfoWindow(marker, idx) {
-      this.infoWindowPos = marker.position
-      this.infoOptions.content = marker.infoText
+      if (!marker.address) {
+        return
+      }
 
       if (this.currentMidx === idx) {
         this.infoWinOpen = !this.infoWinOpen
       } else {
+        this.infoWindowPos = marker.position
+        this.infoOptions.pollingStationNumber = marker.pollingStationNumber
+        this.infoOptions.county = marker.county
+        this.infoOptions.address = marker.address
         this.infoWinOpen = true
         this.currentMidx = idx
       }
