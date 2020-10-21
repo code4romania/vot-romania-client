@@ -8,7 +8,7 @@
         <p class="text-center">
           {{ $t('pollingStationSearch.callToAction') }}
         </p>
-        <PollingStationSearch />
+        <PollingStationSearchGMaps />
       </div>
     </div>
   </div>
