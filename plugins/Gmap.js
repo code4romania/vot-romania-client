@@ -4,6 +4,7 @@ import * as GmapVue from 'gmap-vue'
 Vue.use(GmapVue, {
   load: {
     key: 'AIzaSyDcBNKgmxRV90VY762bQWsrLwwDAjVJTUU',
+    region: 'RO',
     libraries: 'places',
   },
 
