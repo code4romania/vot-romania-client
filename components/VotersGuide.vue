@@ -17,7 +17,7 @@
         @click="goToNextChoice(option)"
       >
         <div class="card-body d-flex align-items-center justify-content-center">
-          <p class="my-0" v-html="$t(decisionTree[option].text)"></p>
+          <div v-html="$t(decisionTree[option].text)"></div>
         </div>
       </div>
     </div>
@@ -39,109 +39,95 @@
 export default {
   data: () => ({
     previousChoice: [],
-    initial: { options: [0, 1] },
+    initial: { options: [1, 2] },
     decisionTree: {
-      0: {
-        id: '0',
-        text: 'votersGuide.label0',
-        options: ['00', '01'],
-      },
       1: {
         id: '1',
         text: 'votersGuide.label1',
-        options: ['10', '11'],
-      },
-      '00': {
-        id: '00',
-        text: 'votersGuide.label00',
-        options: ['000'],
-      },
-      '01': {
-        id: '01',
-        text: 'votersGuide.label01',
-        options: ['010', '011'],
-      },
-      '000': {
-        id: '000',
-        text: 'votersGuide.label000',
-      },
-      '010': {
-        id: '010',
-        text: 'votersGuide.label010',
-        options: ['0100'],
-      },
-      '0100': {
-        id: '0100',
-        text: 'votersGuide.label0100',
-      },
-      '011': {
-        id: '011',
-        text: 'votersGuide.label011',
-        options: ['0110', '0111'],
-      },
-      '0110': {
-        id: '0110',
-        text: 'votersGuide.label0110',
-        options: ['01100'],
-      },
-      '01100': {
-        id: '01100',
-        text: 'votersGuide.label01100',
-      },
-      '0111': {
-        id: '0111',
-        text: 'votersGuide.label0111',
-        options: ['01110', '01111'],
-      },
-      '01110': {
-        id: '01110',
-        text: 'votersGuide.label01110',
-        options: ['011100'],
-      },
-      '011100': {
-        id: '011100',
-        text: 'votersGuide.label011100',
-      },
-      '01111': {
-        id: '01111',
-        text: 'votersGuide.label01111',
-        options: ['011110'],
-      },
-      '011110': {
-        id: '011110',
-        text: 'votersGuide.label011110',
-      },
-      10: {
-        id: '10',
-        text: 'votersGuide.label10',
-        options: ['100', '101'],
-      },
-      100: {
-        id: '100',
-        text: 'votersGuide.label100',
-        options: ['1000'],
-      },
-      1000: {
-        id: '1000',
-        text: 'votersGuide.label1000',
-      },
-      101: {
-        id: '101',
-        text: 'votersGuide.label101',
-        options: ['1010'],
-      },
-      1010: {
-        id: '1010',
-        text: 'votersGuide.label1010',
+        options: ['11', '12'],
       },
       11: {
         id: '11',
         text: 'votersGuide.label11',
-        options: ['110'],
+        options: ['111', '112'],
       },
-      110: {
-        id: '110',
-        text: 'votersGuide.label110',
+      111: {
+        id: '111',
+        text: 'votersGuide.label111',
+        options: ['1110'],
+      },
+      1110: {
+        id: '1110',
+        text: 'votersGuide.label1110',
+      },
+      112: {
+        id: '112',
+        text: 'votersGuide.label112',
+        options: ['1121', '1122'],
+      },
+      1121: {
+        id: '1121',
+        text: 'votersGuide.label1121',
+        options: ['11210'],
+      },
+      11210: {
+        id: '11210',
+        text: 'votersGuide.label11210',
+      },
+      1122: {
+        id: '1122',
+        text: 'votersGuide.label1122',
+        options: ['1122a', '1122b'],
+      },
+      '1122a': {
+        id: '1122a',
+        text: 'votersGuide.label1122a',
+        options: ['1122a0'],
+      },
+      '1122b': {
+        id: '1122b',
+        text: 'votersGuide.label1122b',
+        options: ['1122b0'],
+      },
+      '1122a0': {
+        id: '1122a0',
+        text: 'votersGuide.label1122a0',
+      },
+      '1122b0': {
+        id: '1122b0',
+        text: 'votersGuide.label1122b0',
+      },
+      12: {
+        id: '12',
+        text: 'votersGuide.label12',
+        options: ['121', '122'],
+      },
+      121: {
+        id: '121',
+        text: 'votersGuide.label121',
+        options: ['1210'],
+      },
+      1210: {
+        id: '1210',
+        text: 'votersGuide.label1210',
+      },
+      122: {
+        id: '122',
+        text: 'votersGuide.label122',
+        options: ['1220'],
+      },
+      1220: {
+        id: '1220',
+        text: 'votersGuide.label1220',
+      },
+      2: {
+        id: '2',
+        text: 'votersGuide.label2',
+        options: ['20'],
+      },
+      20: {
+        id: '20',
+        text: 'votersGuide.label20',
       },
     },
   }),
@@ -159,7 +145,7 @@ export default {
     },
     resetTest() {
       this.previousChoice = []
-      this.initial.options = ['0', '1']
+      this.initial.options = [1, 2]
     },
   },
 }
