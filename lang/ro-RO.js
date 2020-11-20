@@ -51,6 +51,16 @@ export default {
     label20:
       'Cetățenii altor state cu domiciliu sau reședința în România nu vor putea vota în cadrul alegerilor parlamentare de pe 6 decembrie 2020',
   },
+  exceptionalCases: {
+    title1: 'Sunt imobilizat la domiciliu sau în unități speciale (ex: spital)',
+    content1: `<p>Dacă nu te poți deplasa la secția de votare pentru că ești bolnav sau invalid, poți solicita urna mobilă. Pentru acest lucru trebuie să faci o cerere, împreună cu actele din care rezultă starea de sănătate și să o transmiți președintelui biroului electoral al secției de votare care este cel mai aproape de locul în care te vei afla în ziua alegerilor. Această cerere trebuie depusă fizic sâmbătă, 5 decembrie, între 18.00 și 20.00. În premieră, la aceste alegeri, cererile se pot face și la birourile de circumscripție sau la oficiile electorale.</p>
+    <p>Dacă ești reținut, pe baza unui mandat de arestare, sub măsura preventivă a arestului la domiciliu, sau execuți o pedeapsă privativă de libertate și nu ți-ai pierdut drepturile electorale poți solicita urna mobilă conform cu procedurile stabilite pentru acest caz de către Biroul Electoral Central.</p>
+    <p>De asemenea, dacă te afli în țară și din cauza specificului activității pe care o desfășori nu te poți prezenta la secție, poți cere urna mobilă.</p>`,
+    title2: 'Sunt diagnosticat cu Covid și mă aflu în carantină sau internat?',
+    content2: `<p>Dacă sunteți diagnosticat cu Covid (aveți un test pozitiv) puteți solicita urna mobilă. Până la acest moment cei care sunt în carantină sau izolare în urma unui contact direct, dar nu au un test pozitiv, adica un document medical care să ateste impunerea carantinării și izolării, nu pot solicita urna mobilă. De asemenea, până acum nu există reguli suplimentare comunicate oficial de către autorități despre procedurile recomandate în lipsa unor dovezi clare a infectării cu coronavirus.</p>`,
+    title3: 'Sunt în incapacitate de a semna sau aplica ștampila în secție',
+    content3: `<p>Dacă ești un cetățean cu dizabilități și te prezinți în secție și nu poți semna pe lista electorală din motive de invaliditate sau nu poți aplica ștampila pe buletin și președintele secției de votare constată acest lucru, poți fi însoțit în cabină de un însoțitor pe care îl alegi tu și care nu este din rândul persoanelor acreditate, al membrilor biroului electoral al secţiei de votare sau al candidaţilor</p>`,
+  },
   pollingStationSearch: {
     question: 'Unde stai?',
     callToAction:
