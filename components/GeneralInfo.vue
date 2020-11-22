@@ -5,8 +5,9 @@
       src="../assets/logo_vertical_yellow.svg"
       height="100"
     />
-    <p class="container text-white mt-4 pb-0">
-      {{ $t('introduction') }}
-    </p>
+    <div
+      class="container text-white mt-4 pb-0"
+      v-html="$t('introduction')"
+    ></div>
   </div>
 </template>

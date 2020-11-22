@@ -4,37 +4,52 @@ export default {
   guide_title: 'Selectează din opțiunile de mai jos ce ți se potrivește',
   votersGuide: {
     callToAction: 'Începe prin a alege una din opțiunile de mai jos',
-    label0: 'Ești cetățean român',
-    label1: 'Ești cetățean al unei alte țări din Uniunea Europeană',
-    label00: 'Nu te vei afla în România pe 27 septembrie',
-    label01: 'Te vei afla în Romania pe 27 septembrie',
-    label010: 'Locuiești la adresa din buletin',
-    label011: 'Locuiești la altă adresă decât cea din buletin',
-    label0110: 'Ai pe spatele buletinului un autocolant cu viza de flotant',
-    label0111: 'Nu ai viză de flotant pe spatele buletinului',
-    label01110: 'Te poate lua cineva în spațiu',
-    label01111: 'Nu ai pe cineva care te poate lua în spațiu',
-    label10: 'Ești în evidența Inspectoratului General pentru Imigrări',
-    label100:
-      'Adresa la care locuiești nu se va schimba în intervalul 3-27 septembrie',
-    label101: 'Îți vei schimba adresa în intervalul 3-27 septembrie',
-    label11: 'Nu ești în evidența Inspectoratului General pentru Imigrări',
-    label000:
-      'Cetățenii care locuiesc în diaspora sau se află în diaspora în tranzit în momentul alegerilor nu pot să își exprime votul, acest lucru fiind posibil doar pentru cei care se află pe teritoriul României în orașul în care locuiesc.',
-    label0100:
-      'Dacă vrei să votezi în orașul în care ai și domiciliul din buletin atunci tot ce ai de făcut este să te prezinți cu un document de identitate valabil în ziua votului la secția la care este arondată adresa ta. Poți verifica secția la care ești înscris pe listele permanente folosind harta de mai jos.  Documentele de identitate acceptate sunt: cartea de identitate, cartea electronică de identitate, cartea de identitate provizorie, buletinul de identitate, pașaportul diplomatic, pașaportul diplomatic electronic, pașaportul de serviciu, pașaportul de serviciu electronic, în cazul elevilor din școlile militare, carnetul de serviciu militar. Este foarte important ca documentele să fie valabile în ziua votării.',
-    label01100:
-      'Dacă ai viză de flotant în orașul în care vrei să votezi tot ce ai de făcut este să te prezinți cu buletinul pe care ai lipit autocolantul cu viza de flotant și vei putea vota fie pe lista permanentă, fie pe o listă suplimentară. Dacă figurezi în registrul electoral ca locuind la adresa trecută pe viza de flotant, atunci numele tău va fi prezent pe o listă permanentă.  Înscrierea în registrul electoral este deschisă până pe 4 septembrie și se face prin depunerea unei cereri la primărie. Dacă nu ești înscris în registru și ai viză de flotant vei putea vota pe lista suplimentară la secția de care ține strada ta.',
-    label011100:
-      'Sunt două moduri în care cineva poate să te ia în spațiu - fie îți schimbi domiciliul complet, fie îți faci o viză de flotant. <br><br><h3>Schimbare de domiciliu</h3><br>Pentru a-ți schimba domiciliul va trebui să te prezinți la Biroul de Evidență a Populației, împreună cu proprietarul locuinței unde îți schimbi domiciliul (dacă aceasta nu este proprietatea ta). Vei avea nevoie de următoarele acte:<br><br>a. O cerere pentru eliberarea actului de identitate;<br>b. actul de identitate curent şi cartea de alegător, dacă este cazul;<br>c. certificatul de naştere, original şi copie;<br>d. certificatul de căsătorie, dacă este cazul, original si copie;<br>e. hotarârea de divorţ legalizata de catre instanta, definitivă si irevocabilă, după caz, original si copie;<br>f. certificatul de deces al soţului/soţiei decedat/decedate, în cazul soţului supravieţuitor, original si copie;<br>g. certificatele de naştere ale copiilor cu vârsta mai mică de 14 ani, original si copie;<br>h. documentul cu care se face dovada adresei de domiciliu şi, după caz, cel cu care se face dovada adresei de reşedintă, original si copie;<br>i. chitanţa reprezentând contravaloarea cărţii de identitate - 7 lei;<br><br>Proprietarul locuinței va da o declaraţie scrisă care se va consemna pe cererea pentru eliberarea actului de identitate, în prezenţa lucrătorului de evidenţă a persoanelor. Dacă proprietarul locuinței nu poate veni cu tine, mai există opțiunea ca acesta să dea aceeași declarație la notarul public sau, dacă ești în mediul rural, în prezenţa poliţistului de la postul de poliţie. Eliberarea noului act durează între 10 și 30 de zile. <br><br><h3>Viză de flotant</h3><br>Pentru a obține viza de flotant, va trebui să mergi la Biroul de Evidența Populației din localitatea / sectorul în care locuiești. Vei avea nevoie de:<br>Cerere pentru înscrierea în actul de identitate a mențiunii privind stabilirea reședinței<br>Actul de identitate (original și copie)<br>Documentul cu care se face dovada adresei de reședință (original sau copie)<br>Declarația de luare în spațiu a proprietarului<br>Eliberarea vizei de flotant durează până la 30 de zile, în funcție de gradul de încărcare al biroului de evidență a populației la care mergi.',
-    label011110:
-      'Dacă nu ai pe cineva care să te ia în spațiu până la alegeri vei putea să votezi doar orașul în care ai și domiciliul din buletin. Acolo va trebui să te prezinți cu un document de identitate valabil în ziua votului la secția la care este arondată adresa ta. Poți verifica secția la care ești înscris pe listele permanente folosind harta de mai jos.  Documentele de identitate acceptate sunt: cartea de identitate, cartea electronică de identitate, cartea de identitate provizorie, buletinul de identitate, pașaportul diplomatic, pașaportul diplomatic electronic, pașaportul de serviciu, pașaportul de serviciu electronic, în cazul elevilor din școlile militare, carnetul de serviciu militar<br>Este foarte important ca documentele să fie valabile în ziua votării.',
-    label1000:
-      'Conform legii 115/2015, cetăţenii Uniunii Europene cu drept de vot care au domiciliul sau reşedinţa în România şi nu se află în evidenţele Inspectoratului General pentru Imigrări sunt înscrişi, la cererea lor adresată primăriei, în listele complementare. <br><br>Împreună cu cererea de înscriere, cetățenii trebuie să depună și un document care atestă adresa la care locuiesc, adică fie:  <br>a) un contract de vânzare-cumpărare sau de închiriere sau altele, <br>b) declarația scrisă a gazdei, care poate fi atât persoană fizică sau juridică, de luare în spațiu împreună cu unul dintre documentele de la punctul a. <br>c) declarație pe proprie răspundere a solicitantului, însoţită de nota de verificare a poliţistului de ordine publică, prin care se certifică existenţa unui imobil şi faptul că solicitantul locuieşte efectiv la adresa declarată, pentru persoana fizică ce nu poate prezenta documentele prevăzute la lit. a) şi b); <br>d) documentul eliberat de primărie, din care să rezulte că solicitantul figurează înscris în Registrul agricol, pentru mediul rural.',
-    label1010:
-      'Dacă ești cetățean al Uniunii Europene cu drept de vot și ai ori domiciliul ori reședința în România, atunci vei fi înscris pe liste complementare de către primarul localității în care te afli, pe baza evidenței Inspectoratului General pentru Imigrări. Aceste liste complementare au caracter permanent. Dacă vrei să verifici înscrierea ta pe aceste liste atunci va trebui să iei legătura cu primăria din orașul în care locuiești și, în cazul în care constați o neregulă, să o semnalezi către primar cât de devreme posibil. ',
-    label110:
-      'Dacă ești cetățean european și ai fost omis din lista complementară sau  ți-ai schimbat adresa în altă circumscripție, între momentul în care listele complementare s-au închis și transmis la biroul electoral și alegerile locale (adică, conform calendarului electoral, cu 23 de zile înainte de alegeri), poți vota în circumscripţia electorală pe a cărei rază teritorială locuiești, în baza oricărui document valabil de identitate însoţit de certificatul de înregistrare care atestă noua adresă sau, după caz, cartea de rezidenţă permanentă ori de permisul de şedere permanentă care atestă adresa anterioară, însoţit de o adeverinţă eliberată de Inspectoratul General pentru Imigrări, care atestă adresa actuală. <br><br>Totodată, poți depune, înainte de alegeri, o cerere către primarul localității unde ai noul domiciliu, însoțită de documentele de mai sus, iar acesta va comunica biroului electoral lde care ține secția în care ar urma să votezi o informare și vei putea vota pe liste suplimentare. ',
+    label1: 'Sunt cetățean român',
+    label11: 'Voi fi în Romania pe 6 decembrie',
+    label111: 'Locuiesc la adresa din buletin',
+    label1110: `Dacă vrei să votezi în orașul în care ai și domiciliul din buletin atunci tot ce ai de făcut este să te prezinți cu un <b>document de identitate valabil (se acceptă şi documentele expirate între 1 martie - 6 decembrie 2020)</b> la secția la care este arondată adresa ta. Poți verifica secția la care ești înscris pe listele permanente folosind harta de mai jos. Documentele de identitate acceptate sunt: cartea de identitate, cartea electronică de identitate, cartea de identitate provizorie, buletinul de identitate, pașaportul diplomatic, pașaportul diplomatic electronic, pașaportul de serviciu, pașaportul de serviciu electronic, în cazul elevilor din școlile militare, carnetul de serviciu militar.`,
+    label112: 'Locuiesc la altă adresă decât cea din buletin',
+    label1121: 'Am pe spatele buletinului un autocolant cu viza de flotant',
+    label11210:
+      'Dacă ai viză de flotant în județul în care vrei să votezi tot ce ai de făcut este să te prezinți cu buletinul pe care ai lipit autocolantul cu viza de flotant și vei putea vota fie pe lista permanentă (la secţia de votare la care este arondată adresa ta de reşedinţă) , fie pe o listă suplimentară (dacă te afli în judeţul  în care ai viza de flotant, dar în altă localitate) . Dacă figurezi în registrul electoral ca locuind la adresa trecută pe viza de flotant, atunci numele tău va fi prezent pe o listă permanentă.  Înscrierea în registrul electoral se face prin depunerea unei cereri la primărie.',
+    label1122: 'Nu am viză de flotant pe spatele buletinului',
+    label1122a: 'Mă poate lua cineva în spațiu',
+    label1122a0: `<p>Sunt două moduri în care cineva poate să te ia în spațiu - fie îți schimbi domiciliul complet, fie îți faci o viză de flotant.</p>
+    <h4>Schimbare de domiciliu</h4>
+<p>Pentru a-ți schimba domiciliul va trebui să te prezinți la Biroul de Evidență a Populației, împreună cu proprietarul locuinței unde îți schimbi domiciliul (dacă aceasta nu este proprietatea ta). Vei avea nevoie de următoarele acte:</p>
+<ol>
+  <li>O cerere pentru eliberarea actului de identitate;</li>
+  <li>actul de identitate curent şi cartea de alegător, dacă este cazul;</li>
+  <li>certificatul de naştere, original şi copie;</li>
+  <li>certificatul de căsătorie, dacă este cazul, original si copie;</li>
+  <li>hotarârea de divorţ legalizata de catre instanta, definitivă si irevocabilă, după caz, original si copie;</li>
+  <li>certificatul de deces al soţului/soţiei decedat/decedate, în cazul soţului supravieţuitor, original si copie;</li>
+  <li>certificatele de naştere ale copiilor cu vârsta mai mică de 14 ani, original si copie;</li>
+  <li>documentul cu care se face dovada adresei de domiciliu şi, după caz, cel cu care se face dovada adresei de reşedintă, original si copie;</li>
+  <li>chitanţa reprezentând contravaloarea cărţii de identitate - 7 lei;</li>
+</ol>
+<p>Proprietarul locuinței va da o declaraţie scrisă care se va consemna pe cererea pentru eliberarea actului de identitate, în prezenţa lucrătorului de evidenţă a persoanelor. Dacă proprietarul locuinței nu poate veni cu tine, mai există opțiunea ca acesta să dea aceeași declarație la notarul public sau, dacă ești în mediul rural, în prezenţa poliţistului de la postul de poliţie. Eliberarea noului act durează între 10 și 30 de zile.</p>
+
+<h4>Viză de flotant</h4>
+<p>Pentru a obține viza de flotant, va trebui să mergi la Biroul de Evidența Populației din localitatea / sectorul în care locuiești. Vei avea nevoie de:</p>
+<ul>
+  <li>Cerere pentru înscrierea în actul de identitate a mențiunii privind stabilirea reședinței</li>
+  <li>Actul de identitate (original și copie)</li>
+  <li>Documentul cu care se face dovada adresei de reședință (original sau copie)</li>
+  <li>Declarația de luare în spațiu a proprietarului</li>
+</ul>
+<p>Eliberarea vizei de flotant durează până la 30 de zile, în funcție de gradul de încărcare al biroului de evidență a populației la care mergi.</p>`,
+    label1122b: 'Nu mă poate lua nimeni în spațiu',
+    label1122b0: `Dacă nu ai pe cineva care să te ia în spațiu până la alegeri vei putea să votezi doar pe raza județului în care ai și domiciliul din buletin. Acolo va trebui să te prezinți cu un <b>document de identitate valabil (se acceptă şi documentele expirate între 1 martie - 6 decembrie)</b>  la secția la care este arondată adresa ta. Poți verifica secția la care ești înscris pe listele permanente folosind harta de mai jos.  Documentele de identitate acceptate sunt: cartea de identitate, cartea electronică de identitate, cartea de identitate provizorie, buletinul de identitate, pașaportul diplomatic, pașaportul diplomatic electronic, pașaportul de serviciu, pașaportul de serviciu electronic, în cazul elevilor din școlile militare, carnetul de serviciu militar`,
+    label12: 'Nu mă voi afla în România pe 6 decembrie',
+    label121: 'Sunt domiciliat sau am reședința în străinătate',
+    label1210: `Cetățenii care au domiciliul sau reședința în străinătate pot să își exprime votul la oricare dintre secțiile din diaspora. Detalii despre documentele necesare, programul alegerilor și alte informații utile descoperi pe <a href="https://votdiaspora.ro">votdiaspora.ro</a>.`,
+    label122: 'Locuiesc în România, dar voi fi în tranzit în altă țară',
+    label1220:
+      'Cetățenii care au domiciliul permanent pe teritoriul României, care se află în diaspora în tranzit în momentul alegerilor parlamentare din 2020 (indiferent de natura călătoriei) nu pot să își exprime votul, acest lucru fiind posibil doar pentru cei care se află pe teritoriul României în județul în care au domiciliul sau reședința temporară.',
+    label2: 'Nu sunt cetățean român, dar locuiesc în România',
+    label20:
+      'Cetățenii altor state cu domiciliu sau reședința în România nu vor putea vota în cadrul alegerilor parlamentare de pe 6 decembrie 2020',
   },
   pollingStationSearch: {
     question: 'Unde stai?',
@@ -56,21 +71,22 @@ export default {
   },
   exceptional_cases: {
     case1_title:
-      'Ești imobilizat la domiciliu sau în unități speciale (ex: spital)',
-    case1_text: `<p>Dacă nu te poți deplasa la secția de votare pentru că ești bolnav sau invalid, poți solicita urna mobilă. Pentru acest lucru trebuie să faci o cerere, împreună cu actele din care rezultă starea de sănătate și să o transmiți președintelui biroului electoral al secției de votare.</p><p>Dacă ești reținut, pe baza unui mandat de arestare, sub măsura preventivă a arestului la domiciliu, sau execuți o pedeapsă privativă de libertate și nu ți-ai pierdut drepturile electorale poți solicita urna mobilă conform cu procedurile stabilite pentru acest caz de către Biroul Electoral Central.</p>`,
+      'Sunt imobilizat la domiciliu sau în unități speciale (ex: spital)',
+    case1_text: `<p>Dacă nu te poți deplasa la secția de votare pentru că ești bolnav sau invalid, poți solicita urna mobilă. Pentru acest lucru trebuie să faci o cerere, împreună cu actele din care rezultă starea de sănătate și să o transmiți președintelui biroului electoral al secției de votare care este cel mai aproape de locul în care te vei afla în ziua alegerilor. Această cerere trebuie depusă fizic sâmbătă, 5 decembrie, între 18.00 și 20.00. În premieră, la aceste alegeri, cererile se pot face și la birourile de circumscripție sau la oficiile electorale.</p>
+    <p>Dacă ești reținut, pe baza unui mandat de arestare, sub măsura preventivă a arestului la domiciliu, sau execuți o pedeapsă privativă de libertate și nu ți-ai pierdut drepturile electorale poți solicita urna mobilă conform cu procedurile stabilite pentru acest caz de către Biroul Electoral Central.</p>
+    <p>De asemenea, dacă te afli în țară și din cauza specificului activității pe care o desfășori nu te poți prezenta la secție, poți cere urna mobilă.</p>`,
     case2_title:
-      'Ești diagnosticat cu Covid și te afli în carantină sau internat?',
+      'Sunt diagnosticat cu Covid și mă aflu în carantină sau internat?',
     case2_text:
-      'Conform declarațiilor președintelui AEP, persoanele infectate cu noul coronavirus, care se află în carantină, izolare sau internate în spital vor putea vota la alegerile locale solicitând urna mobilă. Doar pacienții internați la terapie intensivă vor avea condiții speciale. Pentru a solicita urna mobilă trebuie să faci o cerere, împreună cu actele din care rezultă starea de sănătate și să o transmiți președintelui biroului electoral al secției de votare.',
+      '<p>Dacă sunteți diagnosticat cu Covid (aveți un test pozitiv) puteți solicita urna mobilă. Până la acest moment cei care sunt în carantină sau izolare în urma unui contact direct, dar nu au un test pozitiv, adica un document medical care să ateste impunerea carantinării și izolării, nu pot solicita urna mobilă. De asemenea, până acum nu există reguli suplimentare comunicate oficial de către autorități despre procedurile recomandate în lipsa unor dovezi clare a infectării cu coronavirus.</p>',
     case3_title:
-      'Poți ajunge în secția de votare dar ai nevoie de ajutor pentru a aplica ștampila',
+      'Sunt în incapacitate de a semna sau aplica ștampila în secție',
     case3_text:
-      'Dacă ești un cetățean cu dizabilități și te prezinți în secție și nu poți semna pe lista electorală din motive de invaliditate sau nu poți aplica ștampila pe buletin și președintele secției de votare constată acest lucru, poți fi însoțit în cabină de un însoțitor pe care îl alegi tu și care nu este din rândul persoanelor acreditate, al membrilor biroului electoral al secţiei de votare sau al candidaţilor.',
+      '<p>Dacă ești un cetățean cu dizabilități și te prezinți în secție și nu poți semna pe lista electorală din motive de invaliditate sau nu poți aplica ștampila pe buletin și președintele secției de votare constată acest lucru, poți fi însoțit în cabină de un însoțitor pe care îl alegi tu și care nu este din rândul persoanelor acreditate, al membrilor biroului electoral al secţiei de votare sau al candidaţilor</p>',
   },
   back_button: 'Înapoi',
   back_to_start_button: 'Înapoi la început',
-  introduction:
-    'Pe data de 6 decembrie 2020 au loc alegerile parlamentare din România. Cetățenii români cu drept de vot vor putea să își aleagă reprezentanții în Parlamentul României, pentru Senat și Camera Deputaților. În cel mai scurt timp, aici veți găsi toate informațiile necesare pentru a vă putea exercita dreptul la vot în această rundă electorală.',
+  introduction: `Pe data de 6 decembrie 2020 au loc alegerile parlamentare din România. Cetățenii români cu drept de vot vor putea să își aleagă reprezentanții în Parlamentul României, pentru Senat și Camera Deputaților. În cel mai scurt timp, aici veți găsi toate informațiile necesare pentru a vă putea exercita dreptul la vot în această rundă electorală. Înainte de a merge la vot, consultă <a href="https://cetrebuiesafac.ro/ghid-alegatori">regulile și recomandările de conduită</a> sanitară în vigoare pentru alegeri. Dacă locuiești în străinătate, află ce ai de făcut pe <a href="https://votdiaspora.ro">Vot Diaspora</a>.`,
   about: {
     title: 'Despre proiect',
     text: `<p>Vot România este o platformă care simplifică pe înțelesul cetățenilor ghidul electoral al alegerilor locale, care vor avea loc la finalul lunii septembrie 2020. Vot România este cel de-al patrulea proiect pe care Code for Romania îl realizează pentru a facilita accesul cetățenilor la informație și a ajuta la o mai mare transparență a procesului electoral</p>

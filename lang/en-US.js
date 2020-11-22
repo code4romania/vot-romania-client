@@ -3,46 +3,54 @@ export default {
   nav_about: 'About',
   guide_title: 'Select the most suitable option from the ones listed below',
   votersGuide: {
-    callToAction: 'Start out by picking one of the options below',
-    label0: 'You are a Romanian citizen',
-    label1: 'You are a citizen of anoter country within the European Union',
-    label00:
-      'You will be in another country, outside Romanian, on September 27th',
-    label01: 'You will be in Romania on September 27th',
-    label010:
-      "You're currently living at the address which is printed on your ID card",
-    label011:
-      "You're currently living at a different address from the one printed on your ID card",
-    label0110:
-      'You have a temporary residence sticker on the back of your ID card',
-    label0111:
-      'There is no temporary residence sticker on the back of your ID card',
-    label01110: 'There is someone who can accomodate you as a lodger',
-    label01111: "You don't know anyone who can accomodate you as a lodger",
-    label10:
-      'You have been registered with the General Immigrations Inspectorate',
-    label100:
-      'You will not change the address where you live between the 3rd and the 27th of September',
-    label101:
-      'You plan on changing the address where you live between the 3rd and the 27th of September',
-    label11:
-      "You haven't been registered with the General Immigrations Inspectorate yet",
-    label000:
-      'Citizens who live abroad or are travelling internationally at the time of elections cannot cast a vote, the only citizens who can vote in local elections being those present in Romania in the municipality where they currently live.',
-    label0100:
-      'If you want to vote in the municipality where you are registered all you have to do is show up at your allotted polling station with a valid ID on the day of the vote. You can find out the polling place where you are registered on the permanent lists by using the map below. Accepted ID documents include: Identity Cards, Electronic Identity cards, temporary identity cards, identity booklets (buletin), diplomatic passports, electronic diplomatic passports, service passports, electronic service passports and (for students in military schools) military service cards. It is very important for the document you plan to use to be valid on the day of the vote.',
-    label01100:
-      'If you have temporary residency in the municipality where you are planning to vote all you have to do is show up at the polling station with the identity document bearing your temporary residency sticker and you will be able to vote on either the permanent or supplemental lists. If you figure on the electoral registry lists as living at the address where you currently have residency, your name will be on the permanent lists. Registering for the Electoral Registry is still open until the 4th of September and all you have to do is apply at your local city/town hall (Primărie), at the population records office (Biroul de Evidență a Populației).<br>If you do not figure in the Registry you can still vote on a supplemental list at the polling station where the street you live on  is allotted.',
-    label011100:
-      'There are two ways in which you can be accommodated as a lodger by somebody else - either by changing your listed domicile altogether or by applying for temporary residency.<br><br><h3>Changing your listed domicile</h3><br> In order to change your listed domicile you must go to the Population Records Office from the municipality where you live, with your landlord or host (if you do not own the place where you live). You will <br>need the following documents: <br>a. An ID card issue request form; <br>b. Your current ID card and voter card (if applicable); <br>c. Your birth certificate, original and copy; <br>d. Your marriage certificate, original and copy (if applicable); <br>e. Your divorce ruling, legalised by the court, final and irrevocable, original and copy (if applicable); <br>f. Your spouse‘s death certificate, for the surviving spouse, original and copy; <br>g. The birth certificates of children under 14 years of age, original and copy; <br>h. A document serving as proof of domicile and (if applicable) a document serving as proof of residence,  original and copy; <br>i. A receipt for the ID card costs - 7 lei;. <br>The owner of the location of your new domicile will sign an affidavit on your ID card request form, in the presence of the population records employee. If the owner cannot accompany you to the Office, they <br>can also submit the same affidavit to a notary public or, for rural areas, to the local police officer. Your new ID card will be issued in 10 to 30 days. <br><h3>Temporary Residency</h3><br>In order to obtain temporary residency you must go to the Population Records Office from the municipality where you live. You will need the following documents: <br>A temporary residency request form <br>Your current ID card, original and copy; <br>A document serving as proof of residence,  original and copy; <br>The home owner‘s lodger accommodation affidavit <br>Issuing a temporary residency and obtaining the temporary residency sticker can take up to 30 days, depending on how backed up your local Population Registry office is.',
-    label011110:
-      'If nobody can accommodate you as a lodger until the elections you will only be able to vote at the address and in the municipality on your ID card. <br><br>If you want to vote in the municipality where you are registered all you have to do is show up at your allotted polling station with a valid ID on the day of the vote. You can find out the polling place where you are registered on the permanent lists by using the map below. Accepted ID documents include: Identity Cards, Electronic Identity cards, temporary identity cards, identity booklets (buletin), diplomatic passports, electronic diplomatic passports, service passports, electronic service passports and (for students in military schools) military service cards. It is very important for the document you plan to use to be valid on the day of the vote.',
-    label1000:
-      'Romanian Law 115/2015 states that European Union Citizens with full voting rights domiciled or with residency in Romania who have not been registered by the General Immigrations Inspectorate are registered, following a written registration request to their local City/Town Hall on complementary lists.<br><br>With the written registration request to their local City/Town Hall citizens have to also submit a document showing proof of legal right of residency or domicile at their stated adress:<br><br>a) a home purchase contract, rental agreement or similar document, <br>b) The home owner‘s (physical or legal person) written affidavit of lodger accommodation along with one of the documents from a)<br>c) a legally binding affidavit from the applicant along with the public order police officer‘s proof of verification, certifying that the applicant lives at the stated address and that the address exists in case the documents listed at a) and b) cannot be provided;<br>d) A document issued by the City/Town Hall stating that the applicant is registered in the agricultural registry, for rural areas.',
-    label1010:
-      'If you are an EU citizen and you have been omitted from the complementary lists or you have changed your address to a different electoral constituency between the time when the complementary lists have been closed and submitted to the electoral office and the actual date of the local elections (a 23 day window according to the electoral calendar) you can vote in the constituency where you currently reside by using any valid ID along with<br>:<br>the registration certificate attesting your new address or<br>Your permanent residency card or permanent residency permit attesting your previous address along with official written proof from the General Immigrations Inspectorate, attesting your current address.<br>You can also, prior to the elections, submit a written request to the mayor‘s office of the municipality where you have just moved, along with the documents stated above. The mayor’s office will inform the polling place where you will be voting in writing and you should be able to vote on supplementary lists. ',
-    label110:
-      'If you are an European Union citizen with full voting rights and your legal domicile or residency is in Romania you will be listed on complementary lists by the mayor of the municipality where you reside, based on General Immigrations Inspectorate records. These complementary lists are permanent lists. If you want to check your status or presence on complementary lists you can contact city/town hall and, should you observe any irregularities in your voting status, notify the mayor as soon as possible.',
+    callToAction: 'Start by choosing one of the options below',
+    label1: 'I am a Romanian citizen',
+    label11: 'I will be in Romania on December 6th',
+    label111: 'I live at the address listed on my ID',
+    label1110: `If you want to vote in the city where you are legally registered then all you have to do is go to your polling station with a <b>valid identity document (documents expired between March 1 - December 6, 2020 are also accepted)</b>. You can check the polling station where you are registered to vote using the map below. Accepted identity documents are: identity card, electronic identity card, temporary identity card, identity booklet (buletin), diplomatic passport, electronic diplomatic passport, service passport, electronic service passport and in the case of military school students, military service card.`,
+    label112: 'I live at an address other than the one listed on my id',
+    label1121: 'I have a temporary residence sticker on the back of my ID card',
+    label11210:
+      "If you have temporary residence in the county where you want to vote, all you have to do is go to your polling station with go to your polling station with the ID bearing the temporary residence sticker on the back and you will be able to vote either on the permanent lists (at the polling station where you are registered to vote), or on an additional list (if you are in the county where you have temporary residence, but in another town). If you appear in the electoral registry as living at the address listed on your temporary residence sticker, then your name will be present on a permanent list. The registration in the electoral registry is done by submitting an application to the mayor's office.",
+    label1122:
+      "I don't have a temporary residence sticker on the back of my ID card",
+    label1122a: 'Someone can accommodate me as a lodger',
+    label1122a0: `<p>There are two ways in which you can be accommodated as a lodger by somebody else - either by changing your listed domicile altogether or by applying for temporary residency. </p>
+    <h4>Changing your listed domicile</h4>
+<p>In order to change your listed domicile you must go to the Population Records Office of the municipality where you live, with your landlord or host (if you do not own the place where you live). You will need the following documents:</p>
+<ol>
+  <li>An ID card issue request form;</li>
+  <li>Your current ID card and voter card (if applicable);</li>
+  <li>Your birth certificate, original and copy;</li>
+  <li>Your marriage certificate, original and copy (if applicable);</li>
+  <li>Your divorce ruling, legalised by the court, final and irrevocable, original and copy (if applicable);</li>
+  <li>Your spouse‘s death certificate, for the surviving spouse, original and copy; </li>
+  <li>The birth certificates of children under 14 years of age, original and copy; </li>
+  <li>A document serving as proof of domicile and (if applicable) a document serving as proof of residence,  original and copy;</li>
+  <li>A receipt for the ID card costs - 7 lei;</li>
+</ol>
+<p>The owner of the location of your new domicile will sign an affidavit on your ID card request form, in the presence of the population records employee. If the owner cannot accompany you to the Office, they can also submit the same affidavit to a notary public or, for rural areas, to the local police officer. Your new ID card will be issued in 10 to 30 days.</p>
+<h4>Temporary Residency (Viză de Flotant)</h4>
+<p>To obtain a temporary residency sticker, you will need to go to the Population Registry Office in the municipality or district of Bucharest where you live. You will need the following documents: </p>
+<ul>
+   <li>A temporary residency request form</li>
+   <li>Your current ID card, original and copy;</li>
+   <li>A document serving as proof of residence,  original or copy;</li>
+   <li>The home owner‘s lodger accommodation affidavit</li>
+</ul>
+<p>Issuing a temporary residency and obtaining the temporary residency sticker can take up to 30 days, depending on how backed up your local Population Registry office is.</p>`,
+    label1122b: "I don't know anyone who can accomodate me as a lodger",
+    label1122b0: `If nobody can accommodate you as a lodger until the elections you will only be able to vote at the address and in the municipality on your ID card. If you want to vote in the municipality where you are registered all you have to do is show up at your allotted polling station with a valid ID on the day of the vote. You can find out the polling place where you are registered on the permanent lists by using the map below. Accepted ID documents include: Identity Cards, Electronic Identity cards, temporary identity cards, identity booklets (buletin), diplomatic passports, electronic diplomatic passports, service passports, electronic service passports and (for students in military schools) military service cards.`,
+    label12: 'I will not be in Romania on December 6',
+    label121: 'I am domiciled or reside abroad',
+    label1210: `Citizens who officially live abroad can vote at any of the polling stations in the diaspora. Details about the necessary documents, the election schedule and other useful information can be found on <a href="https://votdiaspora.ro"> votdiaspora.ro </a> .`,
+    label122:
+      'I live in Romania, but I will be transiting through another country',
+    label1220:
+      'Citizens who have permanent residence in Romania, who are abroad or in transit at the time of the 2020 parliamentary elections (regardless of the nature of the trip) cannot vote, this being possible only for those who are in Romania in the county in which they have their domicile or temporary residence. ',
+    label2: 'I am not a Romanian citizen, but I live in Romania',
+    label20:
+      'Citizens of other states domiciled or residing in Romania will not be able to vote in the parliamentary elections of December 6, 2020',
   },
   pollingStationSearch: {
     question: 'Where do you live?',
@@ -50,8 +58,9 @@ export default {
     searchPlaceholder:
       'Search for your address to find out the polling section you are assigned to',
     addressNotFound:
-      'We didn`t find the polling station your street is attributed to. Please find below the closest polling stations for the searched address, and the list of streets that are attributed to them. This way you can manually match/check them, and see where you can vote. Please remember that you can only vote in the polling station your street has been attributed to.',
-    hasPermanentResidence: 'The searched address is allocated to the section:',
+      'We didn`t find the polling station your street is attributed to. Please find below the closest polling stations for the searched address, and the list of streets that are attributed to them. This way you can manually match/check them, and see where you can vote',
+    hasPermanentResidence:
+      'The searched address is attributed to the following polling station:',
   },
   pollingStationCard: {
     distance: 'Distance: ',
@@ -64,11 +73,12 @@ export default {
   exceptional_cases: {
     case1_title:
       'You are stuck at home or in other locations (e.g. the hospital)',
-    case1_text: `<p>If you cannot physically go to the polling station due to illness or invalidity, you can request a mobile ballot box. For this to happen you have to make a written request for one and submit it, along with documents certifying your health status to the president of the polling station where you would normally cast your ballot.</p><p>If you are detained through an arrest warrant, are under house arrest or are serving a prison sentence that still allows you full voting rights you can request a mobile ballot box, in concordance with the procedures established by the Central Electoral Bureau.</p>`,
+    case1_text: `<p>If you cannot physically go to the polling station due to illness or invalidity, you can request a mobile ballot box. For this to happen you have to make a written request for one and submit it, along with documents certifying your health status to the president of the polling station where you would normally cast your ballot.</p><p>If you are detained through an arrest warrant, are under house arrest or are serving a prison sentence that still allows you full voting rights you can request a mobile ballot box, in concordance with the procedures established by the Central Electoral Bureau.</p>
+<p>If you are in the country but cannot go to a polling station due to the nature of your job you may also request a mobile ballot box..</p>`,
     case2_title:
-      'You have been diagnosed with COVID-19 and are in quarantine or under isolation',
+      'You have been diagnosed with COVID-19 and are in quarantine or admitted to hospital',
     case2_text:
-      'According to a statement by the AEP (Permanent Electoral Authority) president, persons infected with the novel coronavirus who are in quarantine, isolation or hospitalized will be able to vote in local elections by requesting a mobile ballot box. Only patients in intensive care will have special voting conditions. To request a mobile ballot box you have to make a written request for one and submit it, along with documents certifying your health status to the president of the polling station where you would normally cast your ballot.',
+      'If you are diagnosed with Covid (you have been tested positive) you can request a mobile ballot box. Presently, those who are quarantined or isolated following direct contact, but have not tested positive, (and do not have a medical document certifying the imposition of quarantine and isolation), can not request a mobile ballot box. Also, there are no additional rules officially communicated by the authorities about recommended procedures in the absence of clear evidence of coronavirus infection. </p> ',
     case3_title:
       'You are unable to sign or apply the rubber stamp at the polling station due to disability',
     case3_text:
@@ -77,7 +87,7 @@ export default {
   back_button: 'Back',
   back_to_start_button: 'Back to start',
   introduction:
-    'The parliamentary elections in Romania take place on December 6, 2020. Romanian citizens with the right to vote will be able to elect their representatives in the Romanian Parliament, for the Senate and the Chamber of Deputies. In the shortest time, here you will find all the necessary information to be able to exercise your right to vote in this electoral round.',
+    'The parliamentary elections in Romania take place on December 6, 2020. Romanian citizens with the right to vote will be able to elect their representatives in the Romanian Parliament, for the Senate and the Chamber of Deputies. Shortly, you will find all necessary information to be able to exercise your right to vote in these elections right here .',
   about: {
     title: 'About the project',
     text: `<p>Vot Romania is a platform that simplifies the local elections guide for the late september 2020 elections and translates it in layman‘s terms. Vot Romania is Code for Romania‘s fourth project designed to facilitate citizens’ access to voting information and help foster more transparency for elections.</p>
@@ -137,7 +147,7 @@ export default {
     <h2>Registration cookies</h2>
     <p>When registering to this website, we generate a cookie with your registration data. The cookie helps us in the next steps for communicating with the server. It is possible for this cookie to remain on your device if you do not follow through with all the registration steps. However, this cookie will be overwritten the next time you attempt to register on this website.</p>
     <h2>Other third party cookies</h2>
-    <p> On some pages third parties can set up their own anonymous cookies for purposes of tracking an app’s success rate, or for customizing that app. Due to the way it is used, this website cannot access these cookies, just as third parties cannot access the cookies that belong to this website. For example when you share a page using a “share to social network” button on this website, that social network can track your activity. </p>
+    <p>On some pages third parties can set up their own anonymous cookies for purposes of tracking an app’s success rate, or for customizing that app. Due to the way it is used, this website cannot access these cookies, just as third parties cannot access the cookies that belong to this website. For example when you share a page using a “share to social network” button on this website, that social network can track your activity. </p>
     <h2>What kind of information is stored and accessed through cookies?</h2>
     <p>Cookies save information in a small text file allowing a website to recognize a browser. The web server will recognize the browser up until the cookie expires or is deleted. The cookie stores important information that improve the browsing experience (e.g. a serial number for your donation)</p>
     <h2>Why are cookies important to the Internet?</h2>
@@ -145,7 +155,7 @@ export default {
     <p>Refusing to accept cookies or deactivating them does not mean that you will no longer receive online ads, only that these ads will no longer take your interests or preferences into account as determined by your browsing behavior.</p>
     <h2>Security and confidentiality concerns</h2>
     <p>Cookies are NOT viruses! They use plain text formats. They do not contain code strings and therefore cannot be triggered remotely nor can they activate themselves. They cannot duplicate or self-replicate across networks. As they cannot do any of the above that cannot be considered viruses.</p>
-    <p> However, some cookies can be used for bad purposes. As they can store user preferences and navigation history, both from a specific website and for a broad selection of sites, cookies can be used as a form of spyware. Many anti-spyware products know this and constantly mark cookies to be deleted as part of anti-virus or anti-spyware scans. </p>
+    <p>However, some cookies can be used for bad purposes. As they can store user preferences and navigation history, both from a specific website and for a broad selection of sites, cookies can be used as a form of spyware. Many anti-spyware products know this and constantly mark cookies to be deleted as part of anti-virus or anti-spyware scans. </p>
     <p>Most browsers have privacy settings allowing you to select the types of cookies to accept, their duration as well as auto-delete features that remove cookies once the user has visited a certain site.</p>
     <h2>Other Cookie security aspects</h2>
     <p>As identity protection is very important and represents the right of every internet user, it is important for you to know what potential problems may be caused by cookies. Because cookies are used to constantly transmit information both ways between the browser and the website, unauthorised persons looking to compromise your security may intercept the information contained by cookies. Although this is very rare it can happen if your browser accesses the website by using an unencrypted network (e.g. an unsecured Wifi network).</p>
