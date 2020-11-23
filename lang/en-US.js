@@ -8,7 +8,7 @@ export default {
     label11: 'I will be in Romania on December 6th',
     label111: 'I live at the address listed on my ID',
     label1110: `If you want to vote in the city where you are legally registered then all you have to do is go to your polling station with a <b>valid identity document (documents expired between March 1 - December 6, 2020 are also accepted)</b>. You can check the polling station where you are registered to vote using the map below. Accepted identity documents are: identity card, electronic identity card, temporary identity card, identity booklet (buletin), diplomatic passport, electronic diplomatic passport, service passport, electronic service passport and in the case of military school students, military service card.`,
-    label112: 'I live at an address other than the one listed on my id',
+    label112: 'I live at an address other than the one listed on my ID',
     label1121: 'I have a temporary residence sticker on the back of my ID card',
     label11210:
       "If you have temporary residence in the county where you want to vote, all you have to do is go to your polling station with go to your polling station with the ID bearing the temporary residence sticker on the back and you will be able to vote either on the permanent lists (at the polling station where you are registered to vote), or on an additional list (if you are in the county where you have temporary residence, but in another town). If you appear in the electoral registry as living at the address listed on your temporary residence sticker, then your name will be present on a permanent list. The registration in the electoral registry is done by submitting an application to the mayor's office.",
@@ -72,15 +72,15 @@ export default {
   },
   exceptional_cases: {
     case1_title:
-      'You are stuck at home or in other locations (e.g. the hospital)',
+      'If you are stuck at home or in other locations (e.g. the hospital)',
     case1_text: `<p>If you cannot physically go to the polling station due to illness or invalidity, you can request a mobile ballot box. For this to happen you have to make a written request for one and submit it, along with documents certifying your health status to the president of the polling station where you would normally cast your ballot.</p><p>If you are detained through an arrest warrant, are under house arrest or are serving a prison sentence that still allows you full voting rights you can request a mobile ballot box, in concordance with the procedures established by the Central Electoral Bureau.</p>
-<p>If you are in the country but cannot go to a polling station due to the nature of your job you may also request a mobile ballot box..</p>`,
+<p>If you are in the country but cannot go to a polling station due to the nature of your job you may also request a mobile ballot box.</p>`,
     case2_title:
-      'You have been diagnosed with COVID-19 and are in quarantine or admitted to hospital',
+      'If you have been diagnosed with COVID-19 and are in quarantine or admitted to hospital',
     case2_text:
       'If you are diagnosed with Covid (you have been tested positive) you can request a mobile ballot box. Presently, those who are quarantined or isolated following direct contact, but have not tested positive, (and do not have a medical document certifying the imposition of quarantine and isolation), can not request a mobile ballot box. Also, there are no additional rules officially communicated by the authorities about recommended procedures in the absence of clear evidence of coronavirus infection. </p> ',
     case3_title:
-      'You are unable to sign or apply the rubber stamp at the polling station due to disability',
+      'If you are unable to sign or apply the rubber stamp at the polling station due to disability',
     case3_text:
       'Citizens with disability who arrive at the polling place and cannot sign the electoral list from reasons of impairment or cannot correctly apply the rubber voting stamp on the ballot may, upon confirmation of the impairment from the polling station president, be accompanied by a person of their own choosing as long as that person is not one of the polling station committee members, observers or one of the candidates.',
   },
