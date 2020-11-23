@@ -1,9 +1,15 @@
 <template>
   <div class="card bg-warning">
-    <h3 class="card-header">
-      {{ $t('pollingStationCard.pollingStationNumber') }}
-      {{ pollingStationNumber }}, {{ county }}
-    </h3>
+    <div class="card-header">
+      <p class="mt-2">
+        {{ $t('pollingStationCard.distance') }}
+        {{ distanceInKm }}
+      </p>
+      <h3>
+        {{ $t('pollingStationCard.pollingStationNumber') }}
+        {{ pollingStationNumber }}, {{ county }}
+      </h3>
+    </div>
     <div class="card-body">
       <div class="d-flex justify-content-between align-items-center">
         <p class="m-0">
@@ -46,6 +52,13 @@ export default {
     return {
       showStreet: false,
     }
+  },
+  computed: {
+    distanceInKm() {
+      return this.distance < 1000
+        ? `${this.distance.toFixed(0)} m`
+        : `${(this.distance / 1000).toFixed(1)} km`
+    },
   },
 }
 </script>
