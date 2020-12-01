@@ -75,7 +75,7 @@ export default {
   },
   exceptional_cases: {
     case1_title:
-      'Sunt imobilizat la domiciliu sau în unități speciale (ex: spital)',
+      'Otthon vagy speciális egységekben (pl. Kórházban) mozgásképtelen vagyok',
     case1_text: `<p>Ha betegsége vagy fogyatékossága miatt nem tud elmenni a szavazóhelyiségbe, mobil urnát kérhet. Ehhez kérelmet kell benyújtania az egészségi állapotából fakadó dokumentumokkal együtt, és el kell küldenie a szavazóhelyiség választási irodájának elnökének, amely a legközelebb van ahhoz a helyhez, ahol a választási napon tartózkodik. Ezt a kérvényt fizikailag december 5-én, szombaton, 18.00 és 20.00 óra között kell benyújtani. Először ezeken a választásokon a választókerületi irodákban vagy a választási irodákban is le lehet tenni a kérvényt.</p>
     <p>Ha letartóztatását elfogatóparancs alapján, a házi őrizet megelőző intézkedése alapján tartják fogva, vagy szabadságvesztés büntetést tölt be, és nem vesztette el választási jogait, mobil urnát igényelhet a Központi Választási Iroda által erre az esetre megállapított eljárások szerint.</p>
     <p>Továbbá, ha az országban tartózkodik, és az elvégzett tevékenység sajátosságai miatt nem mehet el a szavazóirodába, mobil urnát kérhet.</p>`,
