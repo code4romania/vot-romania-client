@@ -77,8 +77,16 @@ export default {
     <p>De asemenea, dacă te afli în țară și din cauza specificului activității pe care o desfășori nu te poți prezenta la secție, poți cere urna mobilă.</p>`,
     case2_title:
       'Sunt diagnosticat cu Covid și mă aflu în carantină sau internat?',
-    case2_text:
-      '<p>Dacă sunteți diagnosticat cu Covid (aveți un test pozitiv) puteți solicita urna mobilă. Până la acest moment cei care sunt în carantină sau izolare în urma unui contact direct, dar nu au un test pozitiv, adica un document medical care să ateste impunerea carantinării și izolării, nu pot solicita urna mobilă. De asemenea, până acum nu există reguli suplimentare comunicate oficial de către autorități despre procedurile recomandate în lipsa unor dovezi clare a infectării cu coronavirus.</p>',
+    case2_text: `<p>Dacă sunteți în carantină sau izolare puteți solicita urna mobilă până pe 4 decembrie 2020.</p>
+      <p>În ambele cazuri trebuie să scrieți o cerere în care trebuie obligatoriu să treceți numele complet, CNP-ul, domiciliul sau reşedinţa, conform menţiunilor din actul de identitate ori dovada de reşedinţă, după caz, adresa unde se solicită deplasarea urnei mobile, seria şi numărul actului de identitate, precum şi numărul de telefon.</p>
+      <p><b>Dacă sunteți în carantină</b> trebuie să însoțiți cererea de o copie e deciziei de carantină emisă de direcția de sănătate publică județeană (sau a municipiului București)</p>
+      <p><b>Dacă sunteți în izolare la domiciliu</b> trebuie să însoțiți cererea cu cel puțin o copie a unuia dintre următoarele documente</p>
+      <ul>
+        <li> biletul de externare din unitatea sanitară care confirmă diagnosticul și indicația de izolare</li>
+        <li> decizia de izolare emisă emisă de direcția de sănătate publică județeană (sau a municipiului București)</li>
+        <li> rezultatul testării Covid-19 RT-PCT, pozitiv, făcut în ultimele 14 zile</li>
+      </ul>
+      <p>Pentru a depune această cerere trebuie fie să o depună cineva pentru voi sau să o trimiteți prin e-mail biroului electoral de circumscripție sau oficiului electoral, până pe 4 decembrie 2020.</p>`,
     case3_title:
       'Sunt în incapacitate de a semna sau aplica ștampila în secție',
     case3_text:

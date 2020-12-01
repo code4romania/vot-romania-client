@@ -74,11 +74,19 @@ export default {
     case1_title:
       'If you are stuck at home or in other locations (e.g. the hospital)',
     case1_text: `<p>If you cannot physically go to the polling station due to illness or invalidity, you can request a mobile ballot box. For this to happen you have to make a written request for one and submit it, along with documents certifying your health status to the president of the polling station where you would normally cast your ballot.</p><p>If you are detained through an arrest warrant, are under house arrest or are serving a prison sentence that still allows you full voting rights you can request a mobile ballot box, in concordance with the procedures established by the Central Electoral Bureau.</p>
-<p>If you are in the country but cannot go to a polling station due to the nature of your job you may also request a mobile ballot box.</p>`,
+      <p>If you are in the country but cannot go to a polling station due to the nature of your job you may also request a mobile ballot box.</p>`,
     case2_title:
       'If you have been diagnosed with COVID-19 and are in quarantine or admitted to hospital',
-    case2_text:
-      'If you are diagnosed with Covid (you have been tested positive) you can request a mobile ballot box. Presently, those who are quarantined or isolated following direct contact, but have not tested positive, (and do not have a medical document certifying the imposition of quarantine and isolation), can not request a mobile ballot box. Also, there are no additional rules officially communicated by the authorities about recommended procedures in the absence of clear evidence of coronavirus infection. </p> ',
+    case2_text: `<p>If you are under quarantine or confined to your home, you can request a mobile ballot box until December 4, 2020.</p>
+      <p>In either case you must write an official request that should include your full name, CNP, domicile or residence, as indicated in the identity card or proof of residence, the address where the mobile ballot box is needed, the series and number of your ID and a phone number.</p>
+      <p><b>If you are under quarantine</b> you should add a copy of the quarantine decision issued by the county public health directorate (or the Bucharest public health directorate) to your request</p>
+      <p><b>If you are under home confinement at home</b> you should accompany the written request with at least a copy of one of the following documents</p>
+      <ul>
+        <li> the hospital discharge slip confirming your diagnosis and the indication for confinment</li>
+        <li> the home confinement decision issued by the county public health directorate (or the Bucharest public health directorate) </li>
+        <li> a positive Covid-19 RT-PCT test result, from the last 14 days</li>
+      </ul>
+      <p>In order to submit this application, you must either have somebody submit it on your behalf or you can send it by e-mail to the local electoral bureau or the electoral office, by December 4, 2020</p>`,
     case3_title:
       'If you are unable to sign or apply the rubber stamp at the polling station due to disability',
     case3_text:

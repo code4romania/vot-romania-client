@@ -75,14 +75,22 @@ export default {
   },
   exceptional_cases: {
     case1_title:
-      'Sunt imobilizat la domiciliu sau în unități speciale (ex: spital)',
-    case1_text: `<p>Dacă nu te poți deplasa la secția de votare pentru că ești bolnav sau invalid, poți solicita urna mobilă. Pentru acest lucru trebuie să faci o cerere, împreună cu actele din care rezultă starea de sănătate și să o transmiți președintelui biroului electoral al secției de votare care este cel mai aproape de locul în care te vei afla în ziua alegerilor. Această cerere trebuie depusă fizic sâmbătă, 5 decembrie, între 18.00 și 20.00. În premieră, la aceste alegeri, cererile se pot face și la birourile de circumscripție sau la oficiile electorale.</p>
-    <p>Dacă ești reținut, pe baza unui mandat de arestare, sub măsura preventivă a arestului la domiciliu, sau execuți o pedeapsă privativă de libertate și nu ți-ai pierdut drepturile electorale poți solicita urna mobilă conform cu procedurile stabilite pentru acest caz de către Biroul Electoral Central.</p>
-    <p>De asemenea, dacă te afli în țară și din cauza specificului activității pe care o desfășori nu te poți prezenta la secție, poți cere urna mobilă.</p>`,
+      'Otthon vagy speciális egységekben (pl. Kórházban) mozgásképtelen vagyok',
+    case1_text: `<p>Ha betegsége vagy fogyatékossága miatt nem tud elmenni a szavazóhelyiségbe, mobil urnát kérhet. Ehhez kérelmet kell benyújtania az egészségi állapotából fakadó dokumentumokkal együtt, és el kell küldenie a szavazóhelyiség választási irodájának elnökének, amely a legközelebb van ahhoz a helyhez, ahol a választási napon tartózkodik. Ezt a kérvényt fizikailag december 5-én, szombaton, 18.00 és 20.00 óra között kell benyújtani. Először ezeken a választásokon a választókerületi irodákban vagy a választási irodákban is le lehet tenni a kérvényt.</p>
+    <p>Ha letartóztatását elfogatóparancs alapján, a házi őrizet megelőző intézkedése alapján tartják fogva, vagy szabadságvesztés büntetést tölt be, és nem vesztette el választási jogait, mobil urnát igényelhet a Központi Választási Iroda által erre az esetre megállapított eljárások szerint.</p>
+    <p>Továbbá, ha az országban tartózkodik, és az elvégzett tevékenység sajátosságai miatt nem mehet el a szavazóirodába, mobil urnát kérhet.</p>`,
     case2_title:
       'COVID 19-el diagnosztizáltak, karanténba helyeztek vagy kórházban ápolnak?',
-    case2_text:
-      '<p>Ha Covid Virussal diagnosztizáltak (van egy pozitiv teszted) kérheted a mobil urnát. Jelenleg azok a kiket közvetlen kontaktus miatt karanténba zárnak vagy elkülönítenek, de akiknek nincs egy pozitiv tesztjük, nem kérhetik a mobil urnát. A koronavírus-fertőzés egyértelmű bizonyítékának hiányában eddig nincsenek további, a hatóságok által hivatalosan közölt szabályok az ajánlott eljárásokról.</p>',
+    case2_text: `<p>Ha karanténban vagy elszigetelésben tartózkodik, akkor mobil urnát kérhet 2020. december 4-ig.</p>
+      <p>Mindkét esetben kérelmet kell írnia, amelyben meg kell adnia teljes nevét, CNP-jét, lakóhelyét vagy tartozkodási helyét, a személyazonosító igazolványban vagy a lakóhely igazolásában feltüntetetteknek megfelelően, a címet, ahova a mobilurnát kérik, személyi igazolvány szériáját és számát, valamint  az ön telefonszámát.</p>
+      <p><b>Ha karanténban van</b> a kérelemhez mellékelnie kell a karanténról szóló határozat másolatát amit a megyei közegészségügyi igazgatóság (vagy Bukarest önkormányzata) adott ki</p>
+      <p><b>Ha otthoni elszigetelésben tartózkodik</b> a kérelemhez csatolnia kell a következő dokumentumok minimum egyikének a másolatát </p>
+      <ul>
+        <li> az egészségügyi egység kibocsájtó levele, amely megerősíti a diagnózist és az elszigetelés indikációját</li>
+        <li> a karanténról szóló határozat másolatát amit a megyei közegészségügyi igazgatóság (vagy Bukarest önkormányzata) adott ki</li>
+        <li> az elmúlt 14 napban elvégzett pozitív Covid-19 RT-PCT teszt eredménye</li>
+      </ul>
+      <p> A kérvények benyújtásához vagy megkér valakit hogy ön helyett bevigye, vagy el kell küldenie e-mailben a választókerületi választási irodának vagy a választási irodának, egészen 2020. december 4-ig.</p>`,
     case3_title:
       'El tudsz jutni a szavazóhelyiségbe, de segítségre van szükséged a pecsét használatához',
     case3_text:
