@@ -76,9 +76,9 @@ export default {
   exceptional_cases: {
     case1_title:
       'Sunt imobilizat la domiciliu sau în unități speciale (ex: spital)',
-    case1_text: `<p>Dacă nu te poți deplasa la secția de votare pentru că ești bolnav sau invalid, poți solicita urna mobilă. Pentru acest lucru trebuie să faci o cerere, împreună cu actele din care rezultă starea de sănătate și să o transmiți președintelui biroului electoral al secției de votare care este cel mai aproape de locul în care te vei afla în ziua alegerilor. Această cerere trebuie depusă fizic sâmbătă, 5 decembrie, între 18.00 și 20.00. În premieră, la aceste alegeri, cererile se pot face și la birourile de circumscripție sau la oficiile electorale.</p>
-    <p>Dacă ești reținut, pe baza unui mandat de arestare, sub măsura preventivă a arestului la domiciliu, sau execuți o pedeapsă privativă de libertate și nu ți-ai pierdut drepturile electorale poți solicita urna mobilă conform cu procedurile stabilite pentru acest caz de către Biroul Electoral Central.</p>
-    <p>De asemenea, dacă te afli în țară și din cauza specificului activității pe care o desfășori nu te poți prezenta la secție, poți cere urna mobilă.</p>`,
+    case1_text: `<p>Ha betegsége vagy fogyatékossága miatt nem tud elmenni a szavazóhelyiségbe, mobil urnát kérhet. Ehhez kérelmet kell benyújtania az egészségi állapotából fakadó dokumentumokkal együtt, és el kell küldenie a szavazóhelyiség választási irodájának elnökének, amely a legközelebb van ahhoz a helyhez, ahol a választási napon tartózkodik. Ezt a kérvényt fizikailag december 5-én, szombaton, 18.00 és 20.00 óra között kell benyújtani. Először ezeken a választásokon a választókerületi irodákban vagy a választási irodákban is le lehet tenni a kérvényt.</p>
+    <p>Ha letartóztatását elfogatóparancs alapján, a házi őrizet megelőző intézkedése alapján tartják fogva, vagy szabadságvesztés büntetést tölt be, és nem vesztette el választási jogait, mobil urnát igényelhet a Központi Választási Iroda által erre az esetre megállapított eljárások szerint.</p>
+    <p>Továbbá, ha az országban tartózkodik, és az elvégzett tevékenység sajátosságai miatt nem mehet el a szavazóirodába, mobil urnát kérhet.</p>`,
     case2_title:
       'COVID 19-el diagnosztizáltak, karanténba helyeztek vagy kórházban ápolnak?',
     case2_text: `<p>Ha karanténban vagy elszigetelésben tartózkodik, akkor mobil urnát kérhet 2020. december 4-ig.</p>
