@@ -80,7 +80,7 @@ export default {
     case2_text: `<p>Dacă sunteți în carantină sau izolare puteți solicita urna mobilă până pe 4 decembrie 2020.</p>
       <p>În ambele cazuri trebuie să scrieți o cerere în care trebuie obligatoriu să treceți numele complet, CNP-ul, domiciliul sau reşedinţa, conform menţiunilor din actul de identitate ori dovada de reşedinţă, după caz, adresa unde se solicită deplasarea urnei mobile, seria şi numărul actului de identitate, precum şi numărul de telefon.</p>
       <p><b>Dacă sunteți în carantină</b> trebuie să însoțiți cererea de o copie e deciziei de carantină emisă de direcția de sănătate publică județeană (sau a municipiului București)</p>
-      <p><b>Dacă sunteți în izolare la domiciliu</b> trebuie să însoțiți cererea cu cel o copie a unuia dintre următoarele documente</p>
+      <p><b>Dacă sunteți în izolare la domiciliu</b> trebuie să însoțiți cererea cu cel puțin o copie a unuia dintre următoarele documente</p>
       <ul>
         <li> biletul de externare din unitatea sanitară care confirmă diagnosticul și indicația de izolare</li>
         <li> decizia de izolare emisă emisă de direcția de sănătate publică județeană (sau a municipiului București)</li>
