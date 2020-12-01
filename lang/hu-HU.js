@@ -81,8 +81,16 @@ export default {
     <p>De asemenea, dacă te afli în țară și din cauza specificului activității pe care o desfășori nu te poți prezenta la secție, poți cere urna mobilă.</p>`,
     case2_title:
       'COVID 19-el diagnosztizáltak, karanténba helyeztek vagy kórházban ápolnak?',
-    case2_text:
-      '<p>Ha Covid Virussal diagnosztizáltak (van egy pozitiv teszted) kérheted a mobil urnát. Jelenleg azok a kiket közvetlen kontaktus miatt karanténba zárnak vagy elkülönítenek, de akiknek nincs egy pozitiv tesztjük, nem kérhetik a mobil urnát. A koronavírus-fertőzés egyértelmű bizonyítékának hiányában eddig nincsenek további, a hatóságok által hivatalosan közölt szabályok az ajánlott eljárásokról.</p>',
+    case2_text: `<p>Ha karanténban vagy elszigetelésben tartózkodik, akkor mobil urnát kérhet 2020. december 4-ig.</p>
+      <p>Mindkét esetben kérelmet kell írnia, amelyben meg kell adnia teljes nevét, CNP-jét, lakóhelyét vagy tartozkodási helyét, a személyazonosító igazolványban vagy a lakóhely igazolásában feltüntetetteknek megfelelően, a címet, ahova a mobilurnát kérik, személyi igazolvány szériáját és számát, valamint  az ön telefonszámát.</p>
+      <p><b>Ha karanténban van</b> a kérelemhez mellékelnie kell a karanténról szóló határozat másolatát amit a megyei közegészségügyi igazgatóság (vagy Bukarest önkormányzata) adott ki</p>
+      <p><b>Ha otthoni elszigetelésben tartózkodik</b> a kérelemhez csatolnia kell a következő dokumentumok minimum egyikének a másolatát </p>
+      <ul>
+        <li> az egészségügyi egység kibocsájtó levele, amely megerősíti a diagnózist és az elszigetelés indikációját</li>
+        <li> a karanténról szóló határozat másolatát amit a megyei közegészségügyi igazgatóság (vagy Bukarest önkormányzata) adott ki</li>
+        <li> az elmúlt 14 napban elvégzett pozitív Covid-19 RT-PCT teszt eredménye</li>
+      </ul>
+      <p> A kérvények benyújtásához vagy megkér valakit hogy ön helyett bevigye, vagy el kell küldenie e-mailben a választókerületi választási irodának vagy a választási irodának, egészen 2020. december 4-ig.</p>`,
     case3_title:
       'El tudsz jutni a szavazóhelyiségbe, de segítségre van szükséged a pecsét használatához',
     case3_text:
