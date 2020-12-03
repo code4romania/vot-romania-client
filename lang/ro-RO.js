@@ -1,5 +1,6 @@
 export default {
   donate: 'Donează',
+  helpMessage: `Vot Romania este doar una dintre soluțiile proiectate și construite pro bono de voluntarii Code for Romania. <b>Trimite „PUTEM” prin SMS la <a href="sms://8864?body=PUTEM">8864</a></b> pentru a dona 4 euro lunar și ne poți ajuta să digitalizăm România construind sute de alte soluții la fel de utile. Detalii pe <a class="text-primary" href="https://code4.ro/putem"><b>code4.ro/putem</b></a>`,
   nav_about: 'Despre',
   guide_title: 'Selectează din opțiunile de mai jos ce ți se potrivește',
   votersGuide: {
@@ -94,7 +95,7 @@ export default {
   },
   back_button: 'Înapoi',
   back_to_start_button: 'Înapoi la început',
-  introduction: `Pe data de 6 decembrie 2020 au loc alegerile parlamentare din România. Cetățenii români cu drept de vot vor putea să își aleagă reprezentanții în Parlamentul României, pentru Senat și Camera Deputaților. În cel mai scurt timp, aici veți găsi toate informațiile necesare pentru a vă putea exercita dreptul la vot în această rundă electorală. Înainte de a merge la vot, consultă <a href="https://cetrebuiesafac.ro/ghid-alegatori">regulile și recomandările de conduită</a> sanitară în vigoare pentru alegeri. Dacă locuiești în străinătate, află ce ai de făcut pe <a href="https://votdiaspora.ro">Vot Diaspora</a>.`,
+  introduction: `Pe data de 6 decembrie 2020 au loc alegerile parlamentare din România. Cetățenii români cu drept de vot vor putea să își aleagă reprezentanții în Parlamentul României, pentru Senat și Camera Deputaților. În cel mai scurt timp, aici veți găsi toate informațiile necesare pentru a vă putea exercita dreptul la vot în această rundă electorală. Înainte de a merge la vot, consultă <a href="https://cetrebuiesafac.ro/ghid-alegatori"><b>regulile și recomandările de conduită</b></a> sanitară în vigoare pentru alegeri. Dacă locuiești în străinătate, află ce ai de făcut pe <a href="https://votdiaspora.ro"><b>Vot Diaspora</b></a>.`,
   about: {
     title: 'Despre proiect',
     text: `<p>Vot România este o platformă care simplifică pe înțelesul cetățenilor ghidul electoral al alegerilor locale, care vor avea loc la finalul lunii septembrie 2020. Vot România este cel de-al patrulea proiect pe care Code for Romania îl realizează pentru a facilita accesul cetățenilor la informație și a ajuta la o mai mare transparență a procesului electoral</p>
