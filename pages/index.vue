@@ -25,7 +25,7 @@
         </div>
       </div>
     </div>
-    <div class="container mt-4 mb-5">
+    <!-- <div class="container mt-4 mb-5">
       <div class="row">
         <div class="col-12 mt-4 mb-5">
           <h2 class="h4 text-center">
@@ -37,6 +37,6 @@
           <PollingStationSearchGMaps />
         </div>
       </div>
-    </div>
+    </div> -->
   </div>
 </template>

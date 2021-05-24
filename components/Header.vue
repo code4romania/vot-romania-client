@@ -1,7 +1,11 @@
 <template>
   <header>
     <nav
-      class="container navbar navbar-expand-sm justify-content-center justify-content-sm-end"
+      class="
+        container
+        navbar navbar-expand-sm
+        justify-content-center justify-content-sm-end
+      "
     >
       <nuxt-link
         :to="localePath('index')"

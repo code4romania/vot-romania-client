@@ -110,13 +110,11 @@ export default {
   map_text: `<p class="font-weight-bold m-0">Hamarosan itt találhatsz egy térképet és egy keresőgombot melyek segíteni fognak hogy megtaláld a szavazóíródádat<br/> Ha a Vot România segít, tegyél egy <a href="https://code4.ro/ro/doneaza" target="_blank" rel="noopener noreferrer">bármilyen kis adományt</a> a Code for Romania -nak aki pro bono fejlesztette ezt a webhelyet</p>`,
   social_share: {
     title: 'Tájékoztasd a barátaidat',
-    text:
-      'Oszd meg ezeket az információkat a közösségi mediában, hogy minél több román állampolgár megtudhassa, hol szavazhat a 2020-as parlamenti választásokon, milyen iratokra lesz szüksége és más hasznos tanácsot.',
+    text: 'Oszd meg ezeket az információkat a közösségi mediában, hogy minél több román állampolgár megtudhassa, hol szavazhat a 2020-as parlamenti választásokon, milyen iratokra lesz szüksége és más hasznos tanácsot.',
   },
   donate_card: {
     title: 'Támogass',
-    text:
-      'A Vot Diaspora egy, a Cod For Romania önkéntescsapata által pro bono alapon fejlesztett projekt. Minden nap több száz barátod és kollégád azon dolgozik, hogy olyan hasznos digitális megoldásokat fejlesszen, melyek mindannyiunk életét megkönnyítik és digitalizálják Romániát. Segíts, hogy tovább haladhassunk ezen az úton.',
+    text: 'A Vot Diaspora egy, a Cod For Romania önkéntescsapata által pro bono alapon fejlesztett projekt. Minden nap több száz barátod és kollégád azon dolgozik, hogy olyan hasznos digitális megoldásokat fejlesszen, melyek mindannyiunk életét megkönnyítik és digitalizálják Romániát. Segíts, hogy tovább haladhassunk ezen az úton.',
   },
   cookie: {
     title: 'Adatvédelmi irányelvek',
