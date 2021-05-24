@@ -4,7 +4,13 @@
       {{ $t('guide_title') }}
     </h2>
     <div
-      class="d-flex flex-column flex-sm-row justify-content-center align-items-center align-items-sm-stretch mt-3"
+      class="
+        d-flex
+        flex-column flex-sm-row
+        justify-content-center
+        align-items-center align-items-sm-stretch
+        mt-3
+      "
     >
       <div
         v-for="option in initial.options"

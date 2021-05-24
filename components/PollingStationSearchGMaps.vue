@@ -159,10 +159,11 @@ export default {
           })
         )
       )
-      this.pollingStationsWithAddress = this.pollingStationService.findPollingStation(
-        this.pollingStations,
-        selectedGeocodeAddress
-      )
+      this.pollingStationsWithAddress =
+        this.pollingStationService.findPollingStation(
+          this.pollingStations,
+          selectedGeocodeAddress
+        )
 
       const stations = this.pollingStationsWithAddress.length
         ? this.pollingStationsWithAddress

@@ -117,13 +117,11 @@ export default {
   rel="noopener noreferrer">a donation</a> for Code for Romania, so we’ll be able to keep helping people even more.</p>`,
   social_share: {
     title: 'Share with your friends',
-    text:
-      'Share this information on social media to help more Romanians find out where they can vote for the local elections in 2020, what documents they will need and other useful advice.',
+    text: 'Share this information on social media to help more Romanians find out where they can vote for the local elections in 2020, what documents they will need and other useful advice.',
   },
   donate_card: {
     title: 'Support us',
-    text:
-      'Vot România is developed pro bono by a team of Code for Romania volunteers. Every day, hundreds of your friends and colleagues work together to build useful digital tools that make our lives easier and make Romania a better place. Help us move forward towards that.',
+    text: 'Vot România is developed pro bono by a team of Code for Romania volunteers. Every day, hundreds of your friends and colleagues work together to build useful digital tools that make our lives easier and make Romania a better place. Help us move forward towards that.',
   },
   cookie: {
     title: 'Confidentiality Policy',

@@ -115,13 +115,11 @@ export default {
   rel="noopener noreferrer">donație oricât de mică</a> pentru Code for Romania care a dezvoltat acest site complet pro bono.</p>`,
   social_share: {
     title: 'Informează-ți prietenii',
-    text:
-      'Distribuie aceste informații în social media pentru a ajuta cât mai mulți români să afle unde pot vota la alegerile parlamentare din 2020, de ce documente au nevoie și alte sfaturi utile.',
+    text: 'Distribuie aceste informații în social media pentru a ajuta cât mai mulți români să afle unde pot vota la alegerile parlamentare din 2020, de ce documente au nevoie și alte sfaturi utile.',
   },
   donate_card: {
     title: 'Susține-ne',
-    text:
-      'Vot România este un proiect dezvoltat pro bono de o echipă de voluntari Code for Romania. În fiecare zi, sute dintre prietenii si colegii tăi lucrează pentru a construi instrumente digitale utile pentru a ne face viața mai ușoară și pentru a digitaliza România. Ajută-ne să mergem mai departe.',
+    text: 'Vot România este un proiect dezvoltat pro bono de o echipă de voluntari Code for Romania. În fiecare zi, sute dintre prietenii si colegii tăi lucrează pentru a construi instrumente digitale utile pentru a ne face viața mai ușoară și pentru a digitaliza România. Ajută-ne să mergem mai departe.',
   },
   cookie: {
     title: 'Politica de cookies',
